@@ -1,10 +1,12 @@
 import json
+import datetime
 from hpc import MongoConnection
 
 COLLECTION = MongoConnection('localhost', 27017).query_db()
 
-RAW_LEXICON = json.load(open('/Users/ajdjalali/Desktop/hpc/lexicons/raw_lexicon.json'))
-PARSED_LEXICON = json.load(open('/Users/ajdjalali/Desktop/hpc/lexicons/parsed_lexicon.json'))
+RAW_LEXICON = json.load(open('/Users/ajdjalali/Desktop/hpc/json/raw_lexicon.json'))
+PARSED_LEXICON = json.load(open('/Users/ajdjalali/Desktop/hpc/json/parsed_lexicon.json'))
+SPEAKERS = json.load(open('/Users/ajdjalali/Desktop/hpc/json/speakers.json'))
 
 VERBS = ['know', 'believe', 'say', 'think', 'hope', 'wish', 'mention',
             'tell', 'ask', 'promise', 'warn', 'request', 'order', 'accuse',
@@ -19,32 +21,18 @@ RAW_TOKEN_COUNT = sum(RAW_LEXICON.values())
 PARSED_TOKEN_COUNT = sum(PARSED_LEXICON.values())
 RAW_VOCAB_COUNT = len(RAW_LEXICON.keys())
 PARSED_VOCAB_COUNT = len(PARSED_LEXICON.keys())
+SPEAKER_COUNT = len(SPEAKERS.keys())
 
-SPEAKERS = []
-PARTIES = []
-STATES = []
+print "House Proceedings Corpus (HPC) stats"
+print str(datetime.datetime.now())
+print "##################################\n"
+print "Transcript count: 2707"
+print "Speaker count: %s" %(SPEAKER_COUNT,)
+print "Raw token count: %s" %(str(RAW_TOKEN_COUNT),)
+print "Parsed token count: %s" %(str(PARSED_TOKEN_COUNT),)
+print "Raw vocabulary count: %s" %(str(RAW_VOCAB_COUNT),)
+print "Parsed vocabulary count: %s" %(str(PARSED_VOCAB_COUNT),)
 
-for document in COLLECTION:
-    for speaker in document['people']:
-        state = speaker['state']
-        name = speaker['name']['first'] + " " + speaker['name']['last']
-        party = speaker['party']
-        if name not in SPEAKERS:
-            SPEAKERS.append(name)
-        if state not in STATES:
-            STATES.append(state)
-        if party not in PARTIES:
-            PARTIES.append(party)
-
-print PARTIES
-print len(PARTIES)
-print len(SPEAKERS)
-print len(STATES)
-
-#print "# of raw tokens: %s" %(str(RAW_TOKEN_COUNT),)
-#print "# of parsed tokens: %s" %(str(PARSED_TOKEN_COUNT),)
-#print "Raw vocabulary size: %s" %(str(RAW_VOCAB_COUNT),)
-#print "Parsed vocabulary size: %s" %(str(PARSED_VOCAB_COUNT),)
 
 
 
