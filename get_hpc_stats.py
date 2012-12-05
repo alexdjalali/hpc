@@ -1,37 +1,31 @@
 import json
 import datetime
-from hpc import MongoConnection
 
-COLLECTION = MongoConnection('localhost', 27017).query_db()
+########################### JSON ##############################################
 
-RAW_LEXICON = json.load(open('/Users/ajdjalali/Desktop/hpc/json/raw_lexicon.json'))
-PARSED_LEXICON = json.load(open('/Users/ajdjalali/Desktop/hpc/json/parsed_lexicon.json'))
-SPEAKERS = json.load(open('/Users/ajdjalali/Desktop/hpc/json/speakers.json'))
+raw_lexicon = json.load(open('/Users/ajdjalali/Desktop/hpc/json/raw_lexicon.json'))
+parsed_lexicon = json.load(open('/Users/ajdjalali/Desktop/hpc/json/parsed_lexicon.json'))
+speakers = json.load(open('/Users/ajdjalali/Desktop/hpc/json/speakers.json'))
 
-VERBS = ['know', 'believe', 'say', 'think', 'hope', 'wish', 'mention',
-            'tell', 'ask', 'promise', 'warn', 'request', 'order', 'accuse',
-            'criticize', 'blame', 'regret', 'understand', 'surprise',
-            'begin', 'stop', 'stop', 'continue', 'manage', 'avoid',
-            'force', 'prevent', 'hesitate', 'seem',
-        ]
+########################### COUNTS ##############################################
 
-DETERMINERS = ['this', 'that', 'these', 'those', 'the']
+raw_token_count = sum(raw_lexicon.values())
+parsed_token_count = sum(parsed_lexicon.values())
+raw_vocab_count = len(raw_lexicon.keys())
+parsed_vocab_count = len(parsed_lexicon.keys())
+speaker_count = len(speakers.keys())
 
-RAW_TOKEN_COUNT = sum(RAW_LEXICON.values())
-PARSED_TOKEN_COUNT = sum(PARSED_LEXICON.values())
-RAW_VOCAB_COUNT = len(RAW_LEXICON.keys())
-PARSED_VOCAB_COUNT = len(PARSED_LEXICON.keys())
-SPEAKER_COUNT = len(SPEAKERS.keys())
+##########################################################################
 
 print "House Proceedings Corpus (HPC) stats"
 print str(datetime.datetime.now())
 print "##################################\n"
 print "Transcript count: 2707"
-print "Speaker count: %s" %(SPEAKER_COUNT,)
-print "Raw token count: %s" %(str(RAW_TOKEN_COUNT),)
-print "Parsed token count: %s" %(str(PARSED_TOKEN_COUNT),)
-print "Raw vocabulary count: %s" %(str(RAW_VOCAB_COUNT),)
-print "Parsed vocabulary count: %s" %(str(PARSED_VOCAB_COUNT),)
+print "Speaker count: %s" %(speaker_count,)
+print "Raw token count: %s" %(str(raw_token_count),)
+print "Parsed token count: %s" %(str(parsed_token_count),)
+print "Raw vocabulary count: %s" %(str(raw_vocab_count),)
+print "Parsed vocabulary count: %s" %(str(parsed_vocab_count),)
 
 
 
