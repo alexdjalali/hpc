@@ -82,6 +82,8 @@ STATES = [
             "Wyoming",
     ]
 
+############################################################################
+
 class MongoConnection:
 
     def __init__(self, host, port):
@@ -103,8 +105,11 @@ class Corpus:
     def __init__(self, cursor):
         self.cursor = cursor
 
+    @property
     def get_transcripts(self):
-        return [Transcript(document) for document in self.cursor]
+        #FILTER HERE!
+        for document in self.cursor:
+            yield Transcript(document)
 
 ############################################################################
 
@@ -141,7 +146,7 @@ class Transcript:
         self.speeches = [Speech(speech, date_aired=self.date_aired) for speech in self.document['transcript']]
 
     def __str__(self):
-        return "Transcript #%s" %(self.program_id)
+        return "Transcript ID: %s" %(self.program_id)
 
 ############################################################################
 
@@ -156,18 +161,15 @@ class Person:
         # Get political office
         self.office = self.person['office']
         # Validate political party
-        if self.person['party'] in PARTIES:
-            self.party = self.person['party']
-        else:
-            self.party = None
+        self.party = self.__validator(self.person['party'])
         # Validate state of representation
-        if self.person['state'] in STATES:
-            self.state = self.person['state']
-        else:
-            self.state = None
+        self.state = self.__validator(self.person['state'])
 
-    def __str__(self):
-        return "%s, %s, %s, %s" %(self.full_name, self.office, self.party, self.state)
+    def __validator(self, validation):
+        if validation in STATES or validation in PARTIES:
+            return validation
+        else:
+            return None
 
 ############################################################################
 
@@ -201,3 +203,7 @@ class Speech:
         self.raw_speech = self.speech['speech']
         # Get POS tagged speech
         self.pos_speech = self.speech['pos']
+
+for transcript in Corpus(MongoConnection(HOST, PORT).query_db()).get_transcripts:
+    for person in transcript.people:
+        print person
