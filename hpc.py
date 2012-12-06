@@ -107,7 +107,6 @@ class Corpus:
 
     @property
     def get_transcripts(self):
-        #FILTER HERE!
         for document in self.cursor:
             yield Transcript(document)
 
