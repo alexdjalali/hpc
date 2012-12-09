@@ -1,5 +1,4 @@
 import re
-import csv
 from hpc import hpc
 
 queried_collection = hpc.MongoConnection(hpc.HOST, hpc.PORT).query_collection()
