@@ -1,18 +1,7 @@
 import re
 import time
 from urlparse import urlparse
-from pymongo import Connection
-from pymongo.database import Database
-from pymongo.collection import Collection
 from datetime import datetime, timedelta
-
-############################################################################
-
-# Mongo settings
-HOST = 'localhost'
-PORT = 27017
-DB = 'cspan'
-COLLECTION = 'house_hearings'
 
 # Regular expressions
 TIME = r'([0-9]+) hours{0,1}, ([0-9]+) minutes{0,1}|([0-9]+) minutes{0,1}'
@@ -81,34 +70,6 @@ STATES = [
             "Wisconsin",
             "Wyoming",
     ]
-
-############################################################################
-
-class MongoConnection:
-
-    def __init__(self, host, port):
-        self.connection = Connection(host, port)
-
-    def __db(self):
-        return Database(self.connection, DB)
-
-    def __collection(self):
-        return Collection(self.__db(), COLLECTION)
-
-    def query_collection(self, limit=2707):
-        return self.__collection().find(timeout=False).limit(limit)
-
-############################################################################
-
-class Corpus:
-
-    def __init__(self, cursor):
-        self.cursor = cursor
-
-    @property
-    def get_transcripts(self):
-        for document in self.cursor:
-            yield Transcript(document)
 
 ############################################################################
 
@@ -202,4 +163,5 @@ class Speech:
         self.raw_speech = self.speech['speech']
         # Get POS tagged speech
         self.pos_speech = self.speech['pos']
+
 

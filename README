@@ -1,0 +1,14 @@
+#############################################################################################
+#############################################################################################
+#############################################################################################
+
+This module is built to work wit the House Proceedings Corpus (HPC), a highly structured 
+corpus of complete congressional house proceedings that contains over 2,700 transcripts, 
+tagged for part-of-speech (POS) using the Stanford POS tagger. Thecorpus is comprised of 
+181,648,994 tokens with a vocabulary of 314,031 words. Both a raw and parsed lexicon are 
+available in .JSON format upon request. (HPC is comprised of individual .JSON files to avoid 
+data-corruption and is available upon request.) 
+
+#############################################################################################
+#############################################################################################
+#############################################################################################

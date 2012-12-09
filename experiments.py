@@ -1,8 +1,7 @@
 import re
-from hpc import hpc
+from hpc.corpus import Corpus
 
-queried_collection = hpc.MongoConnection(hpc.HOST, hpc.PORT).query_collection()
-transcripts = hpc.Corpus(queried_collection).get_transcripts
+transcripts = Corpus().get_transcripts
 
 det_re = r'.+?(([A-Za-z]+?)_DT (([Rr]epublican[s]*)_([A-Z]+?)|([Dd]emocrat[s]*)_([A-Z]+?))) .+?'
 
