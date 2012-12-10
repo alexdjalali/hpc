@@ -69,9 +69,9 @@ class Person:
 
     def __init__(self, person, **kwargs):
         self.person = person
-        # Get name
-        self.first_name = self.person['name']['first']
-        self.last_name = self.person['name']['last']
+        # Get cleaned name
+        self.first_name = self.person['name']['first'].strip()
+        self.last_name = self.person['name']['last'].strip()
         self.full_name = self.first_name + " " + self.last_name
         # Get political office
         self.office = self.person['office']

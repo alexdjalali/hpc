@@ -1,6 +1,6 @@
 import re
 from model.corpus import Corpus
-#from csvdump.unicsvwriter import UnicodeWriter
+from csvdump.unicsvwriter import UnicodeWriter
 
 ############################################################################
 
@@ -63,6 +63,7 @@ if __name__ == "__main__":
                     except:
                         pass
         print transcript.program_id + " " + "complete"
+
 
 
 
