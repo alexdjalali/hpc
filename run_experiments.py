@@ -21,6 +21,9 @@ FIELDS = (
             'data_point',
         )
 
+# CSV writer 
+WRITER = csv.writer(open(CSV, 'wb'))
+
 # Regular expresisons
 DET_RE = r'(([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.'
 
@@ -36,8 +39,7 @@ def get_speaker(transcript, speech):
 ############################################################################
 
 if __name__ == "__main__":
-    writer = csv.writer(open(CSV, 'wb'))
-    writer.writerow(FIELDS)
+    WRITER.writerow(FIELDS)
     transcripts = Corpus().get_transcripts
     for transcript in transcripts:
         for speech in transcript.speeches:
@@ -63,8 +65,7 @@ if __name__ == "__main__":
                                     determiner, 
                                     data_point,
                                 )
-                        writer.writerow(row)
-                        print row
+                        WRITER.writerow(row)
                         print "Row successfully written to %s" %(CSV,)
                     except:
                         pass
