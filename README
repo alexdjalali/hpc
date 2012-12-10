@@ -11,12 +11,12 @@ WEBSITE: http://www.stanford.edu/~djalali/
 #############################################################################################
 #############################################################################################
 
-This module is built to work wit the House Proceedings Corpus (HPC), a highly structured 
-corpus of complete congressional house proceedings that contains over 2,700 transcripts, 
-tagged for part-of-speech (POS) using the Stanford POS tagger. The HPC is comprised of 
-individual .JSON files to avoid data-corruption and easily importable into a MongoDB.  
-The HPC has 181,648,994 tokens with a vocabulary of 314,031 words.  It is available upon 
-request.   
+This python module is built to work with the House Proceedings Corpus (HPC), a highly 
+structured corpus of complete congressional house proceedings that contains over 2,700 
+transcripts, tagged for part-of-speech (POS) using the Stanford POS tagger. The HPC is 
+comprised of individual .JSON files to avoid data-corruption and easily importable into 
+a MongoDB.  The HPC has 181,648,994 tokens with a vocabulary of 314,031 words.  It is 
+available upon request.   
 
 #############################################################################################
 #############################################################################################
