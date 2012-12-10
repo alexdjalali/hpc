@@ -17,15 +17,12 @@ speaker_count = len(speakers.keys())
 
 ##########################################################################
 
-
-if __name__ == "__main__":
-
-    print "House Proceedings Corpus (HPC) stats"
-    print str(datetime.datetime.now())
-    print "##################################\n"
-    print "Transcript count: 2707"
-    print "Speaker count: %s" %(speaker_count,)
-    print "Raw token count: %s" %(str(raw_token_count),)
-    print "Parsed token count: %s" %(str(parsed_token_count),)
-    print "Raw vocabulary count: %s" %(str(raw_vocab_count),)
-    print "Parsed vocabulary count: %s" %(str(parsed_vocab_count),)
+print "House Proceedings Corpus (HPC) stats"
+print str(datetime.datetime.now())
+print "##################################\n"
+print "Transcript count: 2707"
+print "Speaker count: %s" %(speaker_count,)
+print "Raw token count: %s" %(str(raw_token_count),)
+print "Parsed token count: %s" %(str(parsed_token_count),)
+print "Raw vocabulary count: %s" %(str(raw_vocab_count),)
+print "Parsed vocabulary count: %s" %(str(parsed_vocab_count),)
