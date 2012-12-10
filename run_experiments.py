@@ -1,8 +1,10 @@
 import re
+import csv
 from model.corpus import Corpus
-from csvdump.unicsvwriter import UnicodeWriter
 
 ############################################################################
+# CSV File
+CSV = 'csvdump/det_experiment.csv'
 
 # CSV fields
 FIELDS = (
@@ -10,7 +12,6 @@ FIELDS = (
             'category',
             'location',
             'date_aired',
-            'run_time',
             'speaker_name',
             'speaker_party',
             'speaker_state',
@@ -21,7 +22,7 @@ FIELDS = (
         )
 
 # Regular expresisons
-DET_RE = r'(([A-Za-z]+?)_(DT) ([Rr]epublicans_[A-Z]+?|[Dd]emocrats_[A-Z]+?)) .+?\.'
+DET_RE = r'(([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.'
 
 ############################################################################
 
@@ -35,6 +36,8 @@ def get_speaker(transcript, speech):
 ############################################################################
 
 if __name__ == "__main__":
+    writer = csv.writer(open(CSV, 'wb'))
+    writer.writerow(FIELDS)
     transcripts = Corpus().get_transcripts
     for transcript in transcripts:
         for speech in transcript.speeches:
@@ -43,27 +46,27 @@ if __name__ == "__main__":
                 speaker = get_speaker(transcript, speech)
                 for match in matches:
                     try:
-                        data = re.match(r'(.+?)_[A-Z]+?', match[3])
-                        date = unicode(transcript.date_aired.month) + ";" + unicode(transcript.date_aired.day) + ";" + unicode(transcript.date_aired.year)
-                        fields = (
+                        date_aired = unicode(transcript.date_aired.month) + ";" + unicode(transcript.date_aired.day) + ";" + unicode(transcript.date_aired.year)
+                        syntactic_category = match[2]
+                        determiner = match[1].lower()
+                        data_point = re.match(r'(.+?)_[A-Z]+?', match[3]).group(1).lower()
+                        row = (
                                     transcript.program_id,
                                     transcript.category,
                                     transcript.location,
-                                    date,
-                                    unicode(transcript.run_time),
+                                    date_aired,
                                     speaker.full_name,
                                     speaker.party,
                                     speaker.state,
                                     speaker.office,
-                                    match[2],
-                                    match[1].lower(),
-                                    data.group(1).lower(),
+                                    syntactic_category,
+                                    determiner, 
+                                    data_point,
                                 )
-                        print fields
+                        writer.writerow(row)
+                        print row
+                        print "Row successfully written to %s" %(CSV,)
                     except:
                         pass
-        print transcript.program_id + " " + "complete"
-
-
-
+        print "Transcript #" + transcript.program_id + " successfully written to %s" %(CSV,)
 
