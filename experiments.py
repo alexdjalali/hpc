@@ -1,6 +1,8 @@
 import re
 from hpc.corpus import Corpus
 
+############################################################################
+
 transcripts = Corpus().get_transcripts
 
 det_re = r'.+?(([A-Za-z]+?)_DT (([Rr]epublican[s]*)_([A-Z]+?)|([Dd]emocrat[s]*)_([A-Z]+?))) .+?'
