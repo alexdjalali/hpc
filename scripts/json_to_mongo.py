@@ -2,12 +2,8 @@ import json
 from glob import glob
 from pymongo import Connection
 
-########################################################################
-
-# Mongo DB connection & collection
 COLLECTION = Connection(host='localhost', port=27017).cspan
 
-# Transcript directory
 DIR = '/Users/ajdjalali/Desktop/cspan/tagged_transcripts/*.json'
 
 ########################################################################

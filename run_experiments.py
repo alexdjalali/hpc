@@ -2,11 +2,8 @@ import re
 import csv
 from model.corpus import Corpus
 
-############################################################################
-# CSV File
 CSV = 'csvdump/det_experiment.csv'
 
-# CSV fields
 FIELDS = (
             'program_id',
             'category',
@@ -19,13 +16,12 @@ FIELDS = (
             'syntactic_category',
             'determiner',
             'data_point',
+            'full_sentence'
         )
 
-# CSV writer 
 WRITER = csv.writer(open(CSV, 'wb'))
 
-# Regular expresisons
-DET_RE = r'(([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.'
+DET_RE = r'((([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.)'
 
 ############################################################################
 
@@ -49,9 +45,11 @@ if __name__ == "__main__":
                 for match in matches:
                     try:
                         date_aired = unicode(transcript.date_aired.month) + ";" + unicode(transcript.date_aired.day) + ";" + unicode(transcript.date_aired.year)
-                        syntactic_category = match[2]
-                        determiner = match[1].lower()
-                        data_point = re.match(r'(.+?)_[A-Z]+?', match[3]).group(1).lower()
+                        transcript_time = unicode(speech.transcript_time)
+                        syntactic_category = match[3]
+                        determiner = match[2].lower()
+                        data_point = re.match(r'(.+?)_[A-Z]+?', match[4]).group(1).lower()
+                        full_sentence = match[0]
                         row = (
                                     transcript.program_id,
                                     transcript.category,
@@ -62,8 +60,9 @@ if __name__ == "__main__":
                                     speaker.state,
                                     speaker.office,
                                     syntactic_category,
-                                    determiner, 
+                                    determiner,
                                     data_point,
+                                    full_sentence,
                                 )
                         WRITER.writerow(row)
                         print "Row successfully written to %s" %(CSV,)

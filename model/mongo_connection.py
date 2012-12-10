@@ -2,8 +2,6 @@ from pymongo import Connection
 from pymongo.database import Database
 from pymongo.collection import Collection
 
-############################################################################
-
 HOST = 'localhost'
 PORT = 27017
 DB = 'cspan'

@@ -1,10 +1,8 @@
-# Political parties
 REPUBLICAN = 'R'
 DEMOCRAT = 'D'
 INDEPENDENT = 'I'
 PARTIES = [REPUBLICAN, DEMOCRAT, INDEPENDENT]
 
-# States of Representation
 STATES = [
             "Alaska",
             "American Samoa",

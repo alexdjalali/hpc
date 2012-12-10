@@ -1,8 +1,6 @@
 import time
 from datetime import datetime, timedelta
 
-############################################################################
-
 class Speech:
 
     def __init__(self, speech, **kwargs):
