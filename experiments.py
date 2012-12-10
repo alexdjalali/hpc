@@ -10,7 +10,6 @@ FIELDS = (
             'category',
             'location',
             'date_aired',
-            'run_time',
             'speaker_name',
             'speaker_party',
             'speaker_state',
@@ -43,21 +42,22 @@ if __name__ == "__main__":
                 speaker = get_speaker(transcript, speech)
                 for match in matches:
                     try:
-                        data = re.match(r'(.+?)_[A-Z]+?', match[3])
-                        date = unicode(transcript.date_aired.month) + ";" + unicode(transcript.date_aired.day) + ";" + unicode(transcript.date_aired.year)
+                        date_aired = unicode(transcript.date_aired.month) + ";" + unicode(transcript.date_aired.day) + ";" + unicode(transcript.date_aired.year)
+                        syntactic_category = match[2]
+                        determiner = match[1].lower(),
+                        data_point = re.match(r'(.+?)_[A-Z]+?', match[3]).group(1).lower()
                         fields = (
                                     transcript.program_id,
                                     transcript.category,
                                     transcript.location,
-                                    date,
-                                    unicode(transcript.run_time),
+                                    date_aired,
                                     speaker.full_name,
                                     speaker.party,
                                     speaker.state,
                                     speaker.office,
-                                    match[2],
-                                    match[1].lower(),
-                                    data.group(1).lower(),
+                                    syntactic_category,
+                                    determiner,
+                                    data_point,
                                 )
                         print fields
                     except:
