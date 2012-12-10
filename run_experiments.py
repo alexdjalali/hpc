@@ -3,6 +3,7 @@ import csv
 from model.corpus import Corpus
 
 ############################################################################
+
 # CSV File
 CSV = 'csvdump/det_experiment.csv'
 
@@ -67,7 +68,7 @@ if __name__ == "__main__":
                     syntactic_category = match[3]
                     determiner = match[2].lower()
                     data_point = re.match(r'(.+?)_[A-Z]+?', match[4]).group(1).lower()
-                    full_sentence = match[1]
+                    full_sentence = match[0]
                     try:
                         row = get_transcript_data(transcript)
                         row = row + get_speaker_data(transcript, speech)
