@@ -31,7 +31,7 @@ if __name__ == "__main__":
                         row = CSV.get_row(transcript, speech) + CSV.token_cleaner(match[0]) + CSV.token_cleaner(match[1])
                         CSV_WRITER.writerow(row)
                         c += 1
-                        print "Row #%s successfully written %s" %(c, CSV)
+                        print "Row #%s successfully written to %s" %(c, CSV_FILE)
                     except:
                         pass
 
