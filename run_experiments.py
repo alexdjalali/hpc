@@ -2,56 +2,9 @@ import re
 import csv
 from model.corpus import Corpus
 
-CSV = 'csvdump/det_experiment.csv'
-
-# CSV fields
-FIELDS = (
-            'program_id',
-            'category',
-            'location',
-            'date_aired',
-            'speaker_name',
-            'speaker_party',
-            'speaker_state',
-            'speaker_office',
-            'syntactic_category',
-            'determiner',
-            'data_point',
-            'full_sentence'
-        )
-
-# CSV writer
-#WRITER = csv.writer(open(CSV, 'wb'))
 
 # Regular expresisons
 DET_RE = r'((([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.)'
-HOLES_RE = r'[A-Za-z]+?_DT [Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+? .+?\.'
-PLUGS_RE = r'((([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.)'
-
-############################################################################
-
-def get_transcript_data(transcript):
-    date_aired = unicode(transcript.date_aired.ctime())
-    row = (
-                transcript.program_id,
-                transcript.category,
-                transcript.location,
-                date_aired,
-        )
-    return row
-
-def get_speaker_data(transcript, speech):
-    for person in transcript.people:
-        if speech.speaker_first_name in person.first_name and speech.speaker_last_name in person.last_name:
-            row = (
-                    person.full_name,
-                    person.party,
-                    person.state,
-                    person.office,
-                )
-            return row
-        else:
-            return False
 
 ############################################################################
 
@@ -69,8 +22,9 @@ if __name__ == "__main__":
                     data_point = re.match(r'(.+?)_[A-Z]+?', match[4]).group(1).lower()
                     full_sentence = match[0]
                     try:
-                        row = get_transcript_data(transcript)
-                        row = row + get_speaker_data(transcript, speech)
+                        fields = Fields(transcript, speech)
+                        row = fields.get_transcript_data
+                        row = row + fields.get_speaker_data
                         row = row + (
                                     syntactic_category,
                                     determiner,
