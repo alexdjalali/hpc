@@ -1,9 +1,6 @@
 import re
-import csv
 from model.corpus import Corpus
 
-
-# Regular expresisons
 DET_RE = r'((([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.)'
 
 ############################################################################

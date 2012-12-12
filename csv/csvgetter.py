@@ -15,9 +15,8 @@ class CSVWriter():
                 'speaker_party',
                 'speaker_state',
                 'speaker_office',
-                'syntactic_category',
                 'determiner',
-                'data_point',
+                'head_noun',
                 'full_sentence'
             )
 
