@@ -18,8 +18,6 @@ class CSVWriter():
                 'noun_cat',
             )
 
-    PARSER = re.compile('([A-Za-z]+)_(\S+)', re.UNICODE | re.VERBOSE)
-
     def __init__(self):
         pass
 
@@ -49,9 +47,11 @@ class CSVWriter():
                 return False
 
     def token_cleaner(self, token):
+        parser = re.compile('([A-Za-z]+)_(\S+)', re.UNICODE | re.VERBOSE)
         if token != "":
-            match = self.PARSER.match(token)
+            match = parser.match(token)
+            # Clean token, not token syn-cat
             return match.group(1).lower(), match.group(2)
         else:
-            return ('NULL', 'NULL')
+            return 'NULL', 'NULL'
 
