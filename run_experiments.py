@@ -2,9 +2,6 @@ import re
 import csv
 from model.corpus import Corpus
 
-############################################################################
-
-# CSV File
 CSV = 'csvdump/det_experiment.csv'
 
 # CSV fields
@@ -24,10 +21,12 @@ FIELDS = (
         )
 
 # CSV writer
-WRITER = csv.writer(open(CSV, 'wb'))
+#WRITER = csv.writer(open(CSV, 'wb'))
 
 # Regular expresisons
 DET_RE = r'((([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.)'
+HOLES_RE = r'[A-Za-z]+?_DT [Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+? .+?\.'
+PLUGS_RE = r'((([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.)'
 
 ############################################################################
 
@@ -58,7 +57,7 @@ def get_speaker_data(transcript, speech):
 
 if __name__ == "__main__":
     c = 0
-    WRITER.writerow(FIELDS)
+    #WRITER.writerow(FIELDS)
     transcripts = Corpus().get_transcripts
     for transcript in transcripts:
         for speech in transcript.speeches:
@@ -78,7 +77,7 @@ if __name__ == "__main__":
                                     data_point,
                                     full_sentence,
                                 )
-                        WRITER.writerow(row)
+                        #WRITER.writerow(row)
                         c += 1
                         print "Row #%s successfully written to %s" %(c, CSV,)
                     except:
