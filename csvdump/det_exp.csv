@@ -1,0 +1,401 @@
+program_id,category,location,date_aired,speaker_name,speaker_party,speaker_state,speaker_office,determiner,det_cat,head_noun,noun_cat
+306989-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 10 00:00:00 2012,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,NULL,NULL,republicans,NNS
+306989-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 10 00:00:00 2012,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,NULL,NULL,republicans,NNPS
+306989-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 10 00:00:00 2012,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,NULL,NULL,republicans,NNPS
+306989-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 10 00:00:00 2012,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,the,DT,republicans,NNPS
+306989-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 10 00:00:00 2012,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,the,DT,republicans,NNPS
+306989-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 10 00:00:00 2012,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,the,DT,republican,JJ
+306989-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 10 00:00:00 2012,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,the,DT,republican,NNP
+303000-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  5 00:00:00 2011,"Addison ""Joe"" Graves Wilson",R,South Carolina,U.S. Representative,NULL,NULL,republicans,NNPS
+182562-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul  6 00:00:00 2004,Candice Miller,R,Michigan,U.S. Representative,NULL,NULL,republican,JJ
+181696-1,House Proceeding,"Washington, District of Columbia, United States",Wed May  5 00:00:00 2004,Dana Rohrabacher,R,California,U.S. Representative,the,DT,democrats,NNPS
+182180-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun  9 00:00:00 2004,Juanita McDonald,D,California,U.S. Representative,NULL,NULL,republican,JJ
+182180-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun  9 00:00:00 2004,Juanita McDonald,D,California,U.S. Representative,a,DT,republican,JJ
+182180-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun  9 00:00:00 2004,Juanita McDonald,D,California,U.S. Representative,the,DT,republican,NNP
+181817-1,House Proceeding,"Washington, District of Columbia, United States",Wed May 12 00:00:00 2004,Jay Inslee,D,Washington,U.S. Representative,NULL,NULL,republicans,NNPS
+181817-1,House Proceeding,"Washington, District of Columbia, United States",Wed May 12 00:00:00 2004,Jay Inslee,D,Washington,U.S. Representative,NULL,NULL,democrats,NNPS
+182074-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun  2 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNS
+182074-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun  2 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+182074-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun  2 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+182074-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun  2 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,the,DT,democrats,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,democrats,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,republicans,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,republicans,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,democrats,NNS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,republicans,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,democrats,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,the,DT,democrats,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,the,DT,democrats,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,democrats,NNPS
+181927-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 20 00:00:00 2004,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,republicans,NNPS
+181913-1,House Proceeding,"Washington, District of Columbia, United States",Wed May 19 00:00:00 2004,Duncan Lee Hunter,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+181913-1,House Proceeding,"Washington, District of Columbia, United States",Wed May 19 00:00:00 2004,Duncan Lee Hunter,R,California,U.S. Representative,NULL,NULL,democrats,NNPS
+181913-1,House Proceeding,"Washington, District of Columbia, United States",Wed May 19 00:00:00 2004,Duncan Lee Hunter,R,California,U.S. Representative,the,DT,democrat,NNP
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republican,JJ
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republican,JJ
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,the,DT,republican,JJ
+182391-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2004,"F. ""James"" James Jr. Sensenbrenner",R,Wisconsin,U.S. Representative,NULL,NULL,republican,JJ
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,this,DT,democrat,NNP
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,the,DT,democrat,NNP
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,republicans,NNPS
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,democrats,NNPS
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,the,DT,democrat,NNP
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,the,DT,republicans,NNPS
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,the,DT,democrats,NNPS
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,democrat,NNP
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,this,DT,republican,JJ
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,democrats,NNPS
+182416-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republican,JJ
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republican,NNP
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,democrats,NNS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republicans,NNS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republicans,NNS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,the,DT,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,the,DT,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,the,DT,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republican,JJ
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republicans,NNPS
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,NULL,NULL,republican,NNP
+181559-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 28 00:00:00 2004,James L. Oberstar,D,Minnesota,U.S. Representative,the,DT,republican,JJ
+181559-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 28 00:00:00 2004,James L. Oberstar,D,Minnesota,U.S. Representative,NULL,NULL,republicans,NNPS
+181559-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 28 00:00:00 2004,James L. Oberstar,D,Minnesota,U.S. Representative,NULL,NULL,democrats,NNPS
+181559-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 28 00:00:00 2004,James L. Oberstar,D,Minnesota,U.S. Representative,NULL,NULL,republicans,NNPS
+181559-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 28 00:00:00 2004,James L. Oberstar,D,Minnesota,U.S. Representative,a,DT,republican,JJ
+181559-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 28 00:00:00 2004,James L. Oberstar,D,Minnesota,U.S. Representative,NULL,NULL,republican,NNP
+181559-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 28 00:00:00 2004,James L. Oberstar,D,Minnesota,U.S. Representative,a,DT,republican,JJ
+181036-1,House Proceeding,"Washington, District of Columbia, United States",Tue Mar 23 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,republican,NNP
+181036-1,House Proceeding,"Washington, District of Columbia, United States",Tue Mar 23 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,republican,NNP
+181036-1,House Proceeding,"Washington, District of Columbia, United States",Tue Mar 23 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,republican,JJ
+181036-1,House Proceeding,"Washington, District of Columbia, United States",Tue Mar 23 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,democrat,NNP
+181036-1,House Proceeding,"Washington, District of Columbia, United States",Tue Mar 23 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,NULL,NULL,democrats,NNPS
+181036-1,House Proceeding,"Washington, District of Columbia, United States",Tue Mar 23 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,NULL,NULL,republicans,NNPS
+303030-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec  6 00:00:00 2011,"Gerald ""Gerry"" E. Connolly",D,Virginia,U.S. Representative,NULL,NULL,republicans,NNPS
+303030-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec  6 00:00:00 2011,"Gerald ""Gerry"" E. Connolly",D,Virginia,U.S. Representative,NULL,NULL,republicans,NNPS
+303030-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec  6 00:00:00 2011,"Gerald ""Gerry"" E. Connolly",D,Virginia,U.S. Representative,the,DT,republican,NNP
+303030-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec  6 00:00:00 2011,"Gerald ""Gerry"" E. Connolly",D,Virginia,U.S. Representative,the,DT,republican,JJ
+303030-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec  6 00:00:00 2011,"Gerald ""Gerry"" E. Connolly",D,Virginia,U.S. Representative,these,DT,republican,JJ
+180997-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 17 00:00:00 2004,David Dreier,R,California,U.S. Representative,NULL,NULL,republican,JJ
+180997-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 17 00:00:00 2004,David Dreier,R,California,U.S. Representative,the,DT,republican,NNP
+181038-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,democrats,NNPS
+181038-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,republicans,NNPS
+181038-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 24 00:00:00 2004,James Nussle,R,Iowa,U.S. Representative,NULL,NULL,republicans,NNPS
+182437-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jun 25 00:00:00 2004,David Dreier,R,California,U.S. Representative,NULL,NULL,democrats,NNPS
+182437-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jun 25 00:00:00 2004,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+182437-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jun 25 00:00:00 2004,David Dreier,R,California,U.S. Representative,NULL,NULL,democrats,NNPS
+182437-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jun 25 00:00:00 2004,David Dreier,R,California,U.S. Representative,the,DT,democrats,NNPS
+180902-2,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 10 00:00:00 2004,Peter A. DeFazio,D,Oregon,U.S. Representative,NULL,NULL,republican,NNP
+180902-2,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 10 00:00:00 2004,Peter A. DeFazio,D,Oregon,U.S. Representative,NULL,NULL,democrat,NNP
+180902-2,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 10 00:00:00 2004,Peter A. DeFazio,D,Oregon,U.S. Representative,NULL,NULL,republican,JJ
+180902-2,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 10 00:00:00 2004,Peter A. DeFazio,D,Oregon,U.S. Representative,the,DT,republican,JJ
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,NULL,NULL,republican,JJ
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,the,DT,democrats,NNPS
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,the,DT,democrats,NNPS
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,the,DT,democrats,NNPS
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,NULL,NULL,democrats,NNPS
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,NULL,NULL,democrat,NNP
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,a,DT,republican,JJ
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,the,DT,democrat,NNP
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,the,DT,democrats,NNPS
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,the,DT,democrats,NNPS
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,the,DT,democrats,NNPS
+180824-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar  4 00:00:00 2004,Peter Hoekstra,R,Michigan,U.S. Representative,NULL,NULL,democrat,NNP
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,both,DT,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,both,DT,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republican,JJ
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,democrat,NNP
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republican,NNP
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,democrats,NNS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republican,JJ
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,both,DT,democrats,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,NULL,NULL,republican,JJ
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republican,NNP
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republican,JJ
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republican,JJ
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republican,JJ
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republicans,NNPS
+303158-2,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 13 00:00:00 2011,David Dreier,R,California,U.S. Representative,the,DT,republican,JJ
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,republican,JJ
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,democrats,NNPS
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,democrats,NNPS
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,democrats,NNPS
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,democrats,NNPS
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,democrats,NNPS
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,a,DT,republican,JJ
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,NULL,NULL,republicans,NNPS
+180394-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 2004,Thomas DeLay,R,Texas,U.S. Representative,the,DT,democrats,NNPS
+179221-2,House Proceeding,"Washington, District of Columbia, United States",Fri Nov 21 00:00:00 2003,"W. ""Billy"" J. II Tauzin",R,Louisiana,U.S. Representative,a,DT,democrat,NNP
+179221-2,House Proceeding,"Washington, District of Columbia, United States",Fri Nov 21 00:00:00 2003,"W. ""Billy"" J. II Tauzin",R,Louisiana,U.S. Representative,a,DT,republican,JJ
+179221-2,House Proceeding,"Washington, District of Columbia, United States",Fri Nov 21 00:00:00 2003,"W. ""Billy"" J. II Tauzin",R,Louisiana,U.S. Representative,NULL,NULL,democrat,NNP
+179221-2,House Proceeding,"Washington, District of Columbia, United States",Fri Nov 21 00:00:00 2003,"W. ""Billy"" J. II Tauzin",R,Louisiana,U.S. Representative,NULL,NULL,republican,NNP
+179221-2,House Proceeding,"Washington, District of Columbia, United States",Fri Nov 21 00:00:00 2003,"W. ""Billy"" J. II Tauzin",R,Louisiana,U.S. Representative,the,DT,republican,JJ
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,a,DT,republican,JJ
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republicans,NNPS
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republicans,NNPS
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republicans,NNPS
+179458-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  8 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,JJ
+180087-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jan 21 00:00:00 2004,Dana Rohrabacher,R,California,U.S. Representative,no,DT,democrats,NNPS
+180087-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jan 21 00:00:00 2004,Dana Rohrabacher,R,California,U.S. Representative,NULL,NULL,republicans,NNPS
+180087-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jan 21 00:00:00 2004,Dana Rohrabacher,R,California,U.S. Representative,the,DT,republican,NNP
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,NULL,NULL,democrat,NNP
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,NULL,NULL,republicans,NNPS
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,the,DT,democrats,NNPS
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,the,DT,republican,NNP
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,the,DT,republican,JJ
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,the,DT,republican,JJ
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,the,DT,republican,JJ
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,the,DT,republicans,NNPS
+303080-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  8 00:00:00 2011,Dan Webster,R,Florida,U.S. Representative,the,DT,republican,JJ
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,NULL,NULL,democrats,NNS
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,the,DT,democrats,NNPS
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,the,DT,democrats,NNPS
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,NULL,NULL,democrats,NNS
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,NULL,NULL,republicans,NNS
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,NULL,NULL,democrats,NNS
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,NULL,NULL,democrat,NNP
+179811-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 20 00:00:00 2004,Mark Foley,R,Florida,U.S. Representative,NULL,NULL,republican,NNP
+179197-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov 20 00:00:00 2003,Phil MD Gingrey,R,Georgia,U.S. Representative,the,DT,republican,NNP
+179197-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov 20 00:00:00 2003,Phil MD Gingrey,R,Georgia,U.S. Representative,the,DT,democrats,NNPS
+179197-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov 20 00:00:00 2003,Phil MD Gingrey,R,Georgia,U.S. Representative,NULL,NULL,republicans,NNPS
+179197-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov 20 00:00:00 2003,Phil MD Gingrey,R,Georgia,U.S. Representative,NULL,NULL,republican,JJ
+179197-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov 20 00:00:00 2003,Phil MD Gingrey,R,Georgia,U.S. Representative,NULL,NULL,democrats,NNPS
+179197-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov 20 00:00:00 2003,Phil MD Gingrey,R,Georgia,U.S. Representative,the,DT,republican,JJ
+179197-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov 20 00:00:00 2003,Phil MD Gingrey,R,Georgia,U.S. Representative,the,DT,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,another,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,this,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,this,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,this,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,this,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,this,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republican,NNP
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republican,NNP
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,this,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,this,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,republican,JJ
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republicans,NNPS
+179161-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 18 00:00:00 2003,Nancy Pelosi,D,California,U.S. Representative,the,DT,republicans,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,JJ
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,JJ
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,democrats,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republicans,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republicans,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republicans,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republicans,NNPS
+178882-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 30 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+178043-1,House Proceeding,"Washington, District of Columbia, United States",Fri Sep  5 00:00:00 2003,"Ronald ""Ron"" M.D. Paul",R,Texas,U.S. Representative,NULL,NULL,republican,JJ
+178043-1,House Proceeding,"Washington, District of Columbia, United States",Fri Sep  5 00:00:00 2003,"Ronald ""Ron"" M.D. Paul",R,Texas,U.S. Representative,both,DT,republican,JJ
+178043-1,House Proceeding,"Washington, District of Columbia, United States",Fri Sep  5 00:00:00 2003,"Ronald ""Ron"" M.D. Paul",R,Texas,U.S. Representative,NULL,NULL,democrat,NNP
+177480-3,House Proceeding,"Washington, District of Columbia, United States",Mon Jul 21 00:00:00 2003,Sheila Jackson Lee,D,Texas,U.S. Representative,NULL,NULL,republican,JJ
+177480-3,House Proceeding,"Washington, District of Columbia, United States",Mon Jul 21 00:00:00 2003,Sheila Jackson Lee,D,Texas,U.S. Representative,the,DT,republican,JJ
+178312-1,House Proceeding,"Washington, District of Columbia, United States",Tue Sep 23 00:00:00 2003,Gene Green,D,Texas,U.S. Representative,the,DT,republican,JJ
+178107-1,House Proceeding,"Washington, District of Columbia, United States",Wed Sep 10 00:00:00 2003,Spencer Bachus,R,,U.S. Representative,NULL,NULL,democrats,NNPS
+178107-1,House Proceeding,"Washington, District of Columbia, United States",Wed Sep 10 00:00:00 2003,Spencer Bachus,R,,U.S. Representative,NULL,NULL,republicans,NNPS
+178107-1,House Proceeding,"Washington, District of Columbia, United States",Wed Sep 10 00:00:00 2003,Spencer Bachus,R,,U.S. Representative,NULL,NULL,democrats,NNPS
+178107-1,House Proceeding,"Washington, District of Columbia, United States",Wed Sep 10 00:00:00 2003,Spencer Bachus,R,,U.S. Representative,NULL,NULL,republicans,NNPS
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,the,DT,republican,NNP
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,NULL,NULL,republican,JJ
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,the,DT,republicans,NNPS
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,NULL,NULL,republican,JJ
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,NULL,NULL,republican,JJ
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,no,DT,republican,JJ
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,NULL,NULL,republican,NNP
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,the,DT,republican,JJ
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,NULL,NULL,republican,NNP
+177553-2,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 24 00:00:00 2003,George Miller,D,California,U.S. Representative,NULL,NULL,democrat,NNP
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,a,DT,republican,JJ
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,NULL,NULL,democrat,NNP
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,the,DT,republican,NNP
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,NULL,NULL,democrat,NNP
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,the,DT,democrats,NNPS
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,NULL,NULL,democrat,NNP
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,the,DT,democrat,NNP
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,a,DT,democrat,NNP
+177389-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 16 00:00:00 2003,Curt Weldon,R,Pennsylvania,U.S. Representative,the,DT,democrat,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,this,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,this,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,this,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,republicans,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,NULL,NULL,democrats,NNPS
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,NNP
+177300-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 10 00:00:00 2003,David R. Obey,D,Wisconsin,U.S. Representative,the,DT,republican,JJ
+177301-2,House Proceeding,"Washington, District of Columbia, United States",Mon Jul 14 00:00:00 2003,"Marcia ""Marcy"" Kaptur",D,Ohio,U.S. Representative,the,DT,republican,JJ
+178697-1,House Proceeding,"Washington, District of Columbia, United States",Fri Oct 17 00:00:00 2003,James Kolbe,R,Arizona,U.S. Representative,NULL,NULL,democrat,NNP
+177388-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 15 00:00:00 2003,"Thomas ""Tom"" Lantos",D,California,U.S. Representative,both,DT,republicans,NNPS
+177388-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 15 00:00:00 2003,"Thomas ""Tom"" Lantos",D,California,U.S. Representative,NULL,NULL,democrats,NNPS
+178353-1,House Proceeding,"Washington, District of Columbia, United States",Thu Sep 25 00:00:00 2003,"C. ""Bill"" W. Young",R,Florida,U.S. Representative,the,DT,republican,JJ
+178473-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct  2 00:00:00 2003,"Thomas ""Tom"" Tancre

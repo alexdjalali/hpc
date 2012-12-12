@@ -1,4 +1,5 @@
 import csv
+import re
 
 class CSVWriter():
 
@@ -12,9 +13,12 @@ class CSVWriter():
                 'speaker_state',
                 'speaker_office',
                 'determiner',
+                'det_cat',
                 'head_noun',
-                'full_sentence'
+                'noun_cat',
             )
+
+    PARSER = re.compile('([A-Za-z]+)_(\S+)', re.UNICODE | re.VERBOSE)
 
     def __init__(self):
         pass
@@ -22,7 +26,7 @@ class CSVWriter():
     def csv_writer(self, filename):
         return csv.writer(open(filename, 'wb'))
 
-    def get_data(self, transcript, speech):
+    def get_row(self, transcript, speech):
         for person in transcript.people:
             if speech.speaker_first_name in person.first_name and speech.speaker_last_name in person.last_name:
 
@@ -43,3 +47,11 @@ class CSVWriter():
                 return row
             else:
                 return False
+
+    def token_cleaner(self, token):
+        if token != "":
+            match = self.PARSER.match(token)
+            return match.group(1).lower(), match.group(2)
+        else:
+            return ('NULL', 'NULL')
+
