@@ -1,15 +1,21 @@
-# coding=UTF
 import re
 from model.corpus import Corpus
 from csvdump.csvgetter import CSVWriter
 
-# CSV WRITER
 CSV_FILE = 'csvdump/test.csv'
 CSV = CSVWriter()
 CSV_WRITER = CSV.csv_writer(CSV_FILE)
 
-PARTY_RE = re.compile(r'(?:[A-Za-z]+?_DT\s+)?(?:[Rr]epublican[s]{0,1}_\S+|[Dd]emocrat[s]{0,1}_\S+)│.+?_\.', re.VERBOSE | re.UNICODE | re.DOTALL | re.M)
-DET_RE = r'((([A-Za-z]+?)_(DT) ([Rr]epublican[s]{0,1}_[A-Z]+?|[Dd]emocrat[s]{0,1}_[A-Z]+?)) .+?\.)'
+# Regular expressions
+PARTY_RE = re.compile(r"""
+                      (?:[A-Za-z]+?_DT\s+)?        # Zero or one DT phrases with trailing space.
+                      (?:
+                      [Rr]epublican[s]{0,1}_\S+    # Republicans with any tag.
+                      |
+                      [Dd]emocrat[s]{0,1}_\S+      # Democrats with any tag.
+                      )
+                      .+?_\.                       # Match to the end of the sentence for context; consider removing?
+                      """, re.VERBOSE | re.UNICODE | re.DOTALL | re.M)
 
 ############################################################################
 
@@ -19,8 +25,8 @@ if __name__ == "__main__":
     CSV_WRITER.writerow(CSV.FIELDS)
     for transcript in transcripts:
         for speech in transcript.speeches:
-            matches = re.findall(DET_RE, speech.pos_speech)
-            print matches
+            match = PARTY_RE.findall(speech.pos_speech)
+            print match
             #if matches:
                 #for match in matches:
                     #syntactic_category = match[3]
