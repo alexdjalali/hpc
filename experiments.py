@@ -14,7 +14,6 @@ PARTY_RE = re.compile(r"""
                       |
                       [Dd]emocrat[s]{0,1}_\S+      # Democrats with any tag.
                       )
-                      .+?_\.                       # Match to the end of the sentence for context; consider removing?
                       """, re.VERBOSE | re.UNICODE | re.DOTALL | re.M)
 
 ############################################################################
