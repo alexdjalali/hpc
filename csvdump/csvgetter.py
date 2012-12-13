@@ -46,12 +46,11 @@ class CSVWriter():
             else:
                 return False
 
-    def token_cleaner(self, token):
-        parser = re.compile('([A-Za-z]+)_(\S+)', re.UNICODE | re.VERBOSE)
+    def get_token(self, token):
+        parser = re.compile('(?:([A-Za-z]+)_(\S+)\s*)', re.UNICODE | re.VERBOSE)
         if token != "":
             match = parser.match(token)
             # Clean token, not token syn-cat
             return match.group(1).lower(), match.group(2)
         else:
             return 'NULL', 'NULL'
-
