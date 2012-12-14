@@ -1,38 +1,26 @@
-from nltk.stem.lancaster import LancasterStemmer
+import json
+from nltk.stem import WordNetLemmatizer
+
+TAGS = json.load(open('Users/ajdjalali/Desktop/hpc/json/tags.json'))
 
 class TypeGetter():
 
-    ST = LancasterStemmer()
-
-    SEM_TAGS = {
-                'hole': [
-                            'say', 'mention', 'tell', 'ask', 'promise',
-                            'warn', 'request', 'order', 'accuse', 'criticize',
-                            'blame', 'believe', 'think', 'doubt', 'suspect',
-                            'hope', 'know'
-                    ],
-                'plug': [
-                            'know', 'regret', 'understand', 'surprise', 'begin',
-                            'stop', 'continue', 'manage', 'avoid', 'force', 'prevent',
-                            'hesitate', 'seem',
-                    ],
-                'factive': [
-                            'know', 'forget', 'realize', 'regret',
-
-                    ]
-                }
+    LEMMATIZER = WordNetLemmatizer().lemmatize
 
     def __init__(self, token):
         self.token = token
 
-    @property
-    def stemmed(self):
-        return self.ST.stem(self.token)
+    def wordnet_lemmatize(self, string, tag):
+        tag = tag.lower()
+        if tag.startswith('v'):    tag = 'v'
+        elif tag.startswith('n'):  tag = 'n'
+        elif tag.startswith('j'):  tag = 'a'
+        elif tag.startswith('r'):  tag = 'r'
+        if tag in ('n', 'v', 'a', 'r'):
+            return self.LEMMATIZER(string, tag)
+        else:
+            return string
 
     @property
     def tags(self):
-        SemTags = dict([(key, [self.ST.stem(token) for token in self.ST.values()]) for key, value in self.SEM_TAGS])
-        return [key for key in SemTags.keys() if self.token.stemmed in SemTags[key]]
-
-print TypeGetter('knew').tags
-
+        pass
