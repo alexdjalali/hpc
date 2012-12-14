@@ -39,4 +39,3 @@ class TypeGetter():
         # Hard code 'v' category
         return self.__standardize_tagdb[self.stemmed_token]
 
-print TypeGetter('knew').tags
