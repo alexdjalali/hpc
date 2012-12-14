@@ -1,15 +1,23 @@
 import json
 from nltk.stem import WordNetLemmatizer
 
-TAGS = json.load(open('Users/ajdjalali/Desktop/hpc/json/tags.json'))
-
 class TypeGetter():
+
+    TAGDB = json.load(open('/Users/ajdjalali/Desktop/hpc/json/tags.json'))
 
     LEMMATIZER = WordNetLemmatizer().lemmatize
 
     def __init__(self, token):
         self.token = token
 
+    @property
+    def __standardize_tagdb(self):
+        for word, tags in self.TAGDB.iteritems():
+            #Hard code 'v' category
+            self.TAGDB[self.wordnet_lemmatize(word, 'v')] = tags
+        return self.TAGDB
+
+    # Function taken from Chris Potts
     def wordnet_lemmatize(self, string, tag):
         tag = tag.lower()
         if tag.startswith('v'):    tag = 'v'
@@ -22,5 +30,13 @@ class TypeGetter():
             return string
 
     @property
+    def stemmed_token(self):
+        # Hard code 'v' category
+        return self.wordnet_lemmatize(self.token, 'v')
+
+    @property
     def tags(self):
-        pass
+        # Hard code 'v' category
+        return self.__standardize_tagdb[self.stemmed_token]
+
+print TypeGetter('knew').tags
