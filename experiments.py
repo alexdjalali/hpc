@@ -22,6 +22,8 @@ if __name__ == "__main__":
             if matches:
                 for match in matches:
                     print TypeGetter(CSV.get_token(match[4])['token']).tags
+                    try:
+                        row = CSV.get_row(transcript, speech)
                     #try:
                         #row = CSV.get_row(transcript, speech)
                         #row += CSV.get_token(match[0]) + CSV.get_token(match[len(match)-1])

@@ -30,18 +30,20 @@ class RegularExpressions():
                             'th(?:ink[s]{0,1}|ought)',
                         ]
 
-        ed_verbs = [verb + '(?:s|ed{0,1})' for verb in
-                        [
-                            'prevent', 'seem', 'regret', 'avoid', 'doubt', 'suspect',
-                            'mention', 'request', 'order', 'ask', 'warn',
+        ed_verbs = [
+                        verb + '(?:s|ed{0,1})' for verb in
+                            [
+                                'prevent', 'seem', 'regret', 'avoid', 'doubt', 'suspect',
+                                'mention', 'request', 'order', 'ask', 'warn',
                         ]
-                    ]
+                ]
 
-        d_verbs = [verb + '(?:s|[d]{0,1})' for verb in
-                    [
-                        'force', 'manage', 'promise', 'hesitate', 'surprise',
-                        'hope', 'blame', 'believe', 'continue', 'accuse',
-                        'criticize', 'realize',
+        d_verbs = [
+                    verb + '(?:s|[d]{0,1})' for verb in
+                        [
+                            'force', 'manage', 'promise', 'hesitate', 'surprise',
+                            'hope', 'blame', 'believe', 'continue', 'accuse',
+                            'criticize', 'realize',
                     ]
                 ]
 
