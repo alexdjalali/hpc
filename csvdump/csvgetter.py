@@ -12,10 +12,6 @@ class CSVWriter():
                 'speaker_party',
                 'speaker_state',
                 'speaker_office',
-                'determiner',
-                'det_cat',
-                'head_noun',
-                'noun_cat',
             )
 
     def __init__(self):
@@ -23,6 +19,29 @@ class CSVWriter():
 
     def csv_writer(self, filename):
         return csv.writer(open(filename, 'wb'))
+
+    @property
+    def det_fields(self):
+
+        fields = (
+                    'determiner',
+                    'det_cat',
+                    'head_noun',
+                    'noun_cat',
+                )
+        return self.FIELD + fields
+
+    @property
+    def verb_fields(self):
+
+        fields = (
+                    'noun',
+                    'noun_cat',
+                    'verb',
+                    'verb_cat',
+                )
+
+        return self.FIELDS + fields
 
     def get_row(self, transcript, speech):
         for person in transcript.people:

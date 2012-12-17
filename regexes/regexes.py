@@ -5,21 +5,23 @@ class RegularExpressions():
     def __init__(self):
         pass
 
-    def __det_regex(self):
+    @property
+    def det_regex(self):
 
         det_re = r"""
-                    ([A-Za-z]+?_DT\s+)?              # Zero or one DT phrases with trailing space.
-                    ((?:\S+_(?:JJ|RB|VBG)\S*\s+)*)   # Zero or more modifiers.
+                    ([A-Za-z]+?_DT\s+)?
+                    ((?:\S+_(?:JJ|RB|VBG)\S*\s+)*)
                     (
-                    [Rr]epublican[s]{0,1}_N\S*       # Republicans with any tag.
-                    |                                # or
-                    [Dd]emocrat[s]{0,1}_N\S*         # Democrats with any tag.
+                    [Rr]epublican[s]{0,1}_N\S*
+                    |
+                    [Dd]emocrat[s]{0,1}_N\S*
                     )
                 """
 
         return re.compile(det_re, re.VERBOSE | re.UNICODE | re.DOTALL | re.M)
 
-    def __verb_regex(self):
+    @property
+    def verb_regex(self):
 
         irregular_verbs = [
                             'forg[eo]t[s]{0,1}', 'sa(?:y|id)', '(?:tell|told)',
