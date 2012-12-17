@@ -37,8 +37,11 @@ class CSVWriter():
         fields = (
                     'noun',
                     'noun_cat',
-                    'verb',
+                    'verb_token',
+                    'verb_type',
                     'verb_cat',
+                    'factivity',
+                    'presupposition_behavior',
                 )
 
         return self.FIELDS + fields

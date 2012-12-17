@@ -3,7 +3,7 @@ from csvdump.csvgetter import CSVWriter
 from regexes.regexes import RegularExpressions
 from lexicalresources.typegetter import TypeGetter
 
-CSV_FILE = 'csvdump/det_exp.csv'
+CSV_FILE = 'csvdump/verb_exp.csv'
 CSV = CSVWriter()
 CSV_WRITER = CSV.csv_writer(CSV_FILE)
 
