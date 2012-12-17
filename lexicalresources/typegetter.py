@@ -3,6 +3,8 @@ from nltk.stem import WordNetLemmatizer
 
 class TypeGetter():
 
+    # This code is not generalized and can only handle the verb experiment.
+
     TAGDB = json.load(open('/Users/ajdjalali/Desktop/hpc/json/tags.json'))
 
     LEMMATIZER = WordNetLemmatizer().lemmatize
@@ -30,13 +32,11 @@ class TypeGetter():
             return string
 
     @property
-    def stemmed_token(self):
+    def type(self):
         # Hard code 'v' category
         return self.wordnet_lemmatize(self.token, 'v')
 
     @property
     def tags(self):
         # Hard code 'v' category
-        return self.__standardize_tagdb[self.stemmed_token]
-
-print TypeGetter('knew').TAGDB.keys()
+        return self.__standardize_tagdb[self.type]

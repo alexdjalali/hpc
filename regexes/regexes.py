@@ -27,33 +27,33 @@ class RegularExpressions():
                             'forg[eo]t[s]{0,1}', 'sa(?:y|id)', '(?:tell|told)',
                             'beg[ia]n[s]{0,1}', 'stop[s]{0,1}(?:ped)',
                             'underst(?:a|oo)nd[s]{0,1}', 'kn[eo]w[s]{0,1}',
-                            'th(?:ink[s]{0,1}|ought)'
+                            'th(?:ink[s]{0,1}|ought)',
                         ]
 
         ed_verbs = [verb + '(?:s|ed{0,1})' for verb in
                         [
-                            'prevent', 'seem', 'regret', 'avoid', 'doubt', 'suspect'
-                            'mention', 'request', 'order', 'ask', 'warn'
+                            'prevent', 'seem', 'regret', 'avoid', 'doubt', 'suspect',
+                            'mention', 'request', 'order', 'ask', 'warn',
                         ]
                     ]
 
         d_verbs = [verb + '(?:s|[d]{0,1})' for verb in
                     [
-                        'force', 'manage', 'promise', 'hesitate', 'surprise'
-                        'hope', 'blame', 'believe', 'continue', 'accuse'
+                        'force', 'manage', 'promise', 'hesitate', 'surprise',
+                        'hope', 'blame', 'believe', 'continue', 'accuse',
                         'criticize', 'realize',
                     ]
                 ]
 
         verb_re = r"""
                     ([A-Za-z]+?_DT\s+)?
-                    ((?:\S+_(?:JJ|RB|VBG)\S*\s+)*)
+                    ((?:\S+_(?:JJ|RB|VBG)\S*\s+)*)?
                     (
                     [Rr]epublican[s]{0,1}_N\S*
                     |
                     [Dd]emocrat[s]{0,1}_N\S*
                     )\s+
-                    ((?:\S+_(?:RB)\S*\s+)*)
+                    ((?:[A-Za-z]+_(?:RB|V\S+)\s+)*)
                     (
                 """
 

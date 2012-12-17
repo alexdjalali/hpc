@@ -67,9 +67,13 @@ class CSVWriter():
 
     def get_token(self, token):
         parser = re.compile('(?:([A-Za-z]+)_(\S+)\s*)', re.UNICODE | re.VERBOSE)
+        d = {}
         if token != "":
             match = parser.match(token)
             # Clean token, not token syn-cat
-            return match.group(1).lower(), match.group(2)
+            d['token'] = match.group(1).lower()
+            d['cat'] = match.group(2)
         else:
-            return 'NULL', 'NULL'
+            d['token'] = 'NULL'
+            d['cat'] = 'NULL'
+        return d

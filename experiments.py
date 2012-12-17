@@ -1,6 +1,7 @@
 from model.corpus import Corpus
 from csvdump.csvgetter import CSVWriter
 from regexes.regexes import RegularExpressions
+from lexicalresources.typegetter import TypeGetter
 
 CSV_FILE = 'csvdump/det_exp.csv'
 CSV = CSVWriter()
@@ -20,7 +21,7 @@ if __name__ == "__main__":
             matches = VERB_RE.findall(speech.pos_speech)
             if matches:
                 for match in matches:
-                    print match
+                    print TypeGetter(CSV.get_token(match[4])['token']).tags
                     #try:
                         #row = CSV.get_row(transcript, speech)
                         #row += CSV.get_token(match[0]) + CSV.get_token(match[len(match)-1])
