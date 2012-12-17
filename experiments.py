@@ -1,10 +1,13 @@
-import re
 from model.corpus import Corpus
 from csvdump.csvgetter import CSVWriter
+from regexes.regexes import RegularExpressions
 
 CSV_FILE = 'csvdump/det_exp.csv'
 CSV = CSVWriter()
 CSV_WRITER = CSV.csv_writer(CSV_FILE)
+
+DET_RE = RegularExpressions().det_regex
+VERB_RE = RegularExpressions().verb_regex
 
 ############################################################################
 
@@ -14,7 +17,7 @@ if __name__ == "__main__":
     CSV_WRITER.writerow(CSV.FIELDS)
     for transcript in transcripts:
         for speech in transcript.speeches:
-            matches = pass #VERBEXP_RE.findall(speech.pos_speech)
+            matches = VERB_RE.findall(speech.pos_speech)
             if matches:
                 for match in matches:
                     print match
