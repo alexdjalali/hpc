@@ -15,7 +15,7 @@ VERB_RE = RegularExpressions().verb_regex
 if __name__ == "__main__":
     c = 0
     transcripts = Corpus().get_transcripts
-    CSV_WRITER.writerow(CSV.FIELDS)
+    CSV_WRITER.writerow(CSV.verb_fields)
     for transcript in transcripts:
         for speech in transcript.speeches:
             matches = VERB_RE.findall(speech.pos_speech)

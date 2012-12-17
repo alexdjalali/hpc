@@ -41,10 +41,23 @@ class CSVWriter():
                     'verb_type',
                     'verb_cat',
                     'factivity',
-                    'presupposition_behavior',
+                    'presuppositional_behavior',
                 )
 
         return self.FIELDS + fields
+
+    def get_token(self, token):
+        parser = re.compile('(?:([A-Za-z]+)_(\S+)\s*)', re.UNICODE | re.VERBOSE)
+        d = {}
+        if token != "":
+            match = parser.match(token)
+            # Clean token, not token's syn-cat
+            d['token'] = match.group(1).lower()
+            d['cat'] = match.group(2)
+        else:
+            d['token'] = 'NULL'
+            d['cat'] = 'NULL'
+        return d
 
     def get_row(self, transcript, speech):
         for person in transcript.people:
@@ -67,16 +80,3 @@ class CSVWriter():
                 return row
             else:
                 return False
-
-    def get_token(self, token):
-        parser = re.compile('(?:([A-Za-z]+)_(\S+)\s*)', re.UNICODE | re.VERBOSE)
-        d = {}
-        if token != "":
-            match = parser.match(token)
-            # Clean token, not token syn-cat
-            d['token'] = match.group(1).lower()
-            d['cat'] = match.group(2)
-        else:
-            d['token'] = 'NULL'
-            d['cat'] = 'NULL'
-        return d
