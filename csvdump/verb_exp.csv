@@ -1,1 +1,165 @@
-program_id,category,location,date_aired,speaker_name,speaker_party,speaker_state,speaker_office,noun,noun_cat,verb_token,verb_type,verb_cat,factivity,presupposition_behavior
+program_id,category,location,date_aired,speaker_name,speaker_party,speaker_state,speaker_office,noun,noun_cat,verb_token,verb_type,verb_cat,presuppositional_behavior,factivity
+303000-2,House Proceeding,"Washington, District of Columbia, United States",Mon Dec  5 00:00:00 2011,"Addison ""Joe"" Graves Wilson",R,South Carolina,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+303309-1,House Proceeding,"Washington, District of Columbia, United States",Tue Dec 20 00:00:00 2011,"Henry ""Hank"" C. Jr. Johnson",D,Georgia,U.S. Representative,republicans,NNPS,prevented,prevent,VBN,H,F
+180916-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 11 00:00:00 2004,Steve Pearce,R,New Mexico,U.S. Representative,democrats,NNPS,continue,continue,VBP,H,F
+176928-3,House Proceeding,"Washington, District of Columbia, United States",Mon Jun  9 00:00:00 2003,"Thomas ""Tom"" Tancredo",R,Colorado,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+176481-1,House Proceeding,"Washington, District of Columbia, United States",Fri May  9 00:00:00 2003,Frank Jr. Pallone,D,New Jersey,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+175356-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar  5 00:00:00 2003,"Randall ""Duke"" Cunningham",R,California,U.S. Representative,democrats,NNPS,asked,ask,VBD,P,NF
+172815-1,House Proceeding,"Washington, District of Columbia, United States",Tue Sep 24 00:00:00 2002,Richard A. Gephardt,D,Missouri,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNS,understand,understand,VBP,H,F
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNS,believe,believe,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNPS,say,say,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrats,NNS,believe,believe,VBP,P,NF
+170655-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 18 00:00:00 2002,James Turner,D,Texas,U.S. Representative,democrat,NNP,believes,believe,VBZ,P,NF
+170847-2,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 26 00:00:00 2002,Scott McInnis,R,Colorado,U.S. Representative,republicans,NNPS,asked,ask,VBN,P,NF
+169654-1,House Proceeding,"Washington, District of Columbia, United States",Thu Apr 18 00:00:00 2002,Major R. Owens,D,New York,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+163449-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 29 00:00:00 2001,Charles B. Rangel,D,New York,U.S. Representative,democrats,NNPS,understand,understand,VB,H,F
+161096-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  7 00:00:00 2000,Greg Ganske,R,Iowa,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+161096-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec  7 00:00:00 2000,Greg Ganske,R,Iowa,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+158401-1,House Proceeding,"Washington, District of Columbia, United States",Mon Jul 24 00:00:00 2000,Scott McInnis,R,Colorado,U.S. Representative,republicans,NNPS,said,say,VBN,P,NF
+159226-1,House Proceeding,"Washington, District of Columbia, United States",Thu Sep 14 00:00:00 2000,Curt Weldon,R,Pennsylvania,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+157828-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 21 00:00:00 2000,Greg Ganske,R,Iowa,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+157828-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 21 00:00:00 2000,Greg Ganske,R,Iowa,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+156073-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 16 00:00:00 2000,Melvin Watt,D,North Carolina,U.S. Representative,republicans,NNPS,told,tell,VBN,P,NF
+153483-1,House Proceeding,"Washington, District of Columbia, United States",Mon Nov  8 00:00:00 1999,Frank Jr. Pallone,D,New Jersey,U.S. Representative,democrats,NNPS,said,say,VBN,P,NF
+153483-1,House Proceeding,"Washington, District of Columbia, United States",Mon Nov  8 00:00:00 1999,Frank Jr. Pallone,D,New Jersey,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+152931-1,House Proceeding,"Washington, District of Columbia, United States",Mon Oct 18 00:00:00 1999,Curt Weldon,R,Pennsylvania,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+153124-1,House Proceeding,"Washington, District of Columbia, United States",Mon Oct 25 00:00:00 1999,J.D. Hayworth,R,Arizona,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+151336-1,House Proceeding,"Washington, District of Columbia, United States",Mon Aug  2 00:00:00 1999,"W. ""W.R."" Reynolds Jr. Archer",R,Texas,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+151977-1,House Proceeding,"Washington, District of Columbia, United States",Thu Sep  9 00:00:00 1999,Scott McInnis,R,Colorado,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+152610-1,House Proceeding,"Washington, District of Columbia, United States",Wed Oct  6 00:00:00 1999,Frank Jr. Pallone,D,New Jersey,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+125389-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 1999,Major R. Owens,D,New York,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+125389-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 1999,Major R. Owens,D,New York,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+125389-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 1999,Major R. Owens,D,New York,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+125389-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 24 00:00:00 1999,Major R. Owens,D,New York,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+152429-1,House Proceeding,"Washington, District of Columbia, United States",Wed Sep 29 00:00:00 1999,Greg Ganske,R,Iowa,U.S. Representative,republicans,NNPS,said,say,VBN,P,NF
+150924-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 21 00:00:00 1999,"W. ""W.R."" Reynolds Jr. Archer",R,Texas,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+150924-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 21 00:00:00 1999,"W. ""W.R."" Reynolds Jr. Archer",R,Texas,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+122037-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 25 00:00:00 1999,John M Jr. Spratt,D,South Carolina,U.S. Representative,democrats,NNPS,understand,understand,VBP,H,F
+113385-1,House Proceeding,"Washington, District of Columbia, United States",Fri Oct 16 00:00:00 1998,"Newton ""Newt"" Leroy Gingrich",R,Georgia,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+120314-1,House Proceeding,"Washington, District of Columbia, United States",Fri Feb 12 00:00:00 1999,Joe Scarborough,R,Florida,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+300164-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 22 00:00:00 2011,Paul Tonko,D,New York,U.S. Representative,republicans,NNPS,began,begin,VBD,H,F
+102149-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 18 00:00:00 1998,Mark Neumann,R,Wisconsin,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+102149-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 18 00:00:00 1998,Mark Neumann,R,Wisconsin,U.S. Representative,republicans,NNPS,blame,blame,VBP,P,NF
+101810-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 12 00:00:00 1998,Frank Riggs,R,California,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+99603-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 27 00:00:00 1998,Mark Neumann,R,Wisconsin,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+99994-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  3 00:00:00 1998,Thomas DeLay,R,Texas,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+92260-1,House Proceeding,"Washington, District of Columbia, United States",Mon Sep 29 00:00:00 1997,Mark Neumann,R,Wisconsin,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+92260-1,House Proceeding,"Washington, District of Columbia, United States",Mon Sep 29 00:00:00 1997,Mark Neumann,R,Wisconsin,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+88562-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 29 00:00:00 1997,Sheila Jackson Lee,D,Texas,U.S. Representative,democrats,NNPS,forced,force,VBD,H,F
+86857-1,House Proceeding,"Washington, District of Columbia, United States",Mon Jun 16 00:00:00 1997,Joe Scarborough,R,Florida,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+87172-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 26 00:00:00 1997,"W. ""W.R."" Reynolds Jr. Archer",R,Texas,U.S. Representative,republicans,NNPS,think,think,VBP,P,NF
+86367-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jun  3 00:00:00 1997,Frank Jr. Pallone,D,New Jersey,U.S. Representative,democrats,NNPS,understand,understand,VBP,H,F
+86367-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jun  3 00:00:00 1997,Frank Jr. Pallone,D,New Jersey,U.S. Representative,republicans,NNS,forced,force,VBN,H,F
+73888-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jul 26 00:00:00 1996,"Robert ""Bob"" K. Dornan",R,California,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+73651-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 18 00:00:00 1996,Major R. Owens,D,New York,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+73651-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 18 00:00:00 1996,Major R. Owens,D,New York,U.S. Representative,republicans,NNPS,believe,believe,VB,P,NF
+73651-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 18 00:00:00 1996,Major R. Owens,D,New York,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+73809-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 23 00:00:00 1996,Frank Jr. Pallone,D,New Jersey,U.S. Representative,democrats,NNPS,prevented,prevent,VBD,H,F
+73809-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 23 00:00:00 1996,Frank Jr. Pallone,D,New Jersey,U.S. Representative,democrats,NNPS,stopped,stop,VBN,H,F
+73962-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 30 00:00:00 1996,"Robert ""Bob"" K. Dornan",R,California,U.S. Representative,democrats,NNS,told,tell,VBD,P,NF
+73081-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 20 00:00:00 1996,"James ""Jim"" McDermott",D,Washington,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+298044-1,House Proceeding,"Washington, District of Columbia, United States",Wed Feb 16 00:00:00 2011,Steny H. Hoyer,D,Maryland,U.S. Representative,republicans,NNPS,began,begin,VBD,H,F
+298254-1,House Proceeding,"Washington, District of Columbia, United States",Tue Mar  1 00:00:00 2011,Steny H. Hoyer,D,Maryland,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+68772-1,House Proceeding,"Washington, District of Columbia, United States",Wed Dec  6 00:00:00 1995,"Randall ""Duke"" Cunningham",R,California,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+68615-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov 28 00:00:00 1995,Robert Menendez,D,New Jersey,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+68502-1,House Proceeding,"Washington, District of Columbia, United States",Mon Nov 20 00:00:00 1995,Joe Scarborough,R,Florida,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+68502-1,House Proceeding,"Washington, District of Columbia, United States",Mon Nov 20 00:00:00 1995,Joe Scarborough,R,Florida,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+68502-1,House Proceeding,"Washington, District of Columbia, United States",Mon Nov 20 00:00:00 1995,Joe Scarborough,R,Florida,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+68322-1,House Proceeding,"Washington, District of Columbia, United States",Mon Nov 13 00:00:00 1995,Steven Schiff,R,New Mexico,U.S. Representative,republicans,NNPS,think,think,VBP,P,NF
+68178-1,House Proceeding,"Washington, District of Columbia, United States",Mon Nov  6 00:00:00 1995,Joe Scarborough,R,Florida,U.S. Representative,democrats,NNPS,think,think,VB,P,NF
+68644-1,House Proceeding,"Washington, District of Columbia, United States",Wed Nov 29 00:00:00 1995,Sheila Jackson Lee,D,Texas,U.S. Representative,democrats,NNPS,accused,accuse,VBN,P,NF
+68255-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov  9 00:00:00 1995,Cynthia McKinney,D,Georgia,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+297663-3,House Proceeding,"Washington, District of Columbia, United States",Mon Jan 24 00:00:00 2011,David Dreier,R,California,U.S. Representative,republicans,NNPS,say,say,VBP,P,NF
+67951-1,House Proceeding,"Washington, District of Columbia, United States",Thu Oct 26 00:00:00 1995,John R. Kasich,R,Ohio,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+67557-1,House Proceeding,"Washington, District of Columbia, United States",Tue Oct 10 00:00:00 1995,Lloyd Doggett,D,Texas,U.S. Representative,republicans,NNPS,think,think,VBP,P,NF
+66298-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 25 00:00:00 1995,Joe Knollenberg,R,Michigan,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+66196-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 18 00:00:00 1995,Major R. Owens,D,New York,U.S. Representative,republicans,NNPS,said,say,VBN,P,NF
+308333-1,House Proceeding,"Washington, District of Columbia, United States",Fri Sep 21 00:00:00 2012,"Louis ""Louie"" B. Jr. Gohmert",R,Texas,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+64939-1,House Proceeding,"Washington, District of Columbia, United States",Wed May  3 00:00:00 1995,Major R. Owens,D,New York,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+63199-1,House Proceeding,"Washington, District of Columbia, United States",Tue Feb  7 00:00:00 1995,Duncan Lee Hunter,R,California,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+294987-2,House Proceeding,"Washington, District of Columbia, United States",Tue Aug 10 00:00:00 2010,Charles B. Rangel,D,New York,U.S. Representative,democrats,NNPS,say,say,VBP,P,NF
+60546-1,House Proceeding,"Washington, District of Columbia, United States",Fri Sep 30 00:00:00 1994,"Robert ""Bob"" K. Dornan",R,California,U.S. Representative,republican,NNP,said,say,VBD,P,NF
+60527-1,House Proceeding,"Washington, District of Columbia, United States",Thu Sep 29 00:00:00 1994,Curt Weldon,R,Pennsylvania,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+58598-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 12 00:00:00 1994,Major R. Owens,D,New York,U.S. Representative,republican,NNP,said,say,VBN,P,NF
+58177-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jun 23 00:00:00 1994,"Robert ""Bob"" K. Dornan",R,California,U.S. Representative,democrats,NNPS,hope,hope,VBP,P,NF
+55279-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 16 00:00:00 1994,"Newton ""Newt"" Leroy Gingrich",R,Georgia,U.S. Representative,democrats,NNS,said,say,VBN,P,NF
+56374-1,House Proceeding,"Washington, District of Columbia, United States",Tue Apr 26 00:00:00 1994,Bob Livingston,R,Louisiana,U.S. Representative,democrats,NNPS,understand,understand,VBP,H,F
+56527-1,House Proceeding,"Washington, District of Columbia, United States",Tue May  3 00:00:00 1994,"Stephen ""Steve"" Horn",R,California,U.S. Representative,republicans,NNPS,continue,continue,VBP,H,F
+55128-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar  9 00:00:00 1994,John R. Kasich,R,Ohio,U.S. Representative,republicans,NNPS,believed,believe,VBD,P,NF
+294642-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 20 00:00:00 2010,"Clifford ""Cliff"" Stearns",R,Florida,U.S. Representative,democrats,NNPS,continue,continue,VBP,H,F
+294642-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 20 00:00:00 2010,"Clifford ""Cliff"" Stearns",R,Florida,U.S. Representative,democrats,NNPS,continue,continue,VBP,H,F
+294665-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 21 00:00:00 2010,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+294687-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 22 00:00:00 2010,Paul C. Jr. Broun,R,Georgia,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+294687-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jul 22 00:00:00 2010,Paul C. Jr. Broun,R,Georgia,U.S. Representative,democrat,NNP,tell,tell,VBP,P,NF
+294533-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 14 00:00:00 2010,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,republicans,NNPS,say,say,VBP,P,NF
+294533-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 14 00:00:00 2010,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+297093-1,House Proceeding,"Washington, District of Columbia, United States",Wed Dec 15 00:00:00 2010,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNS,said,say,VBD,P,NF
+297585-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jan 19 00:00:00 2011,Keith Ellison,D,Minnesota,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+294207-101,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 23 00:00:00 2010,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,republicans,NNPS,know,know,VB,H,F
+293688-1,House Proceeding,"Washington, District of Columbia, United States",Tue May 25 00:00:00 2010,"Clifford ""Cliff"" Stearns",R,Florida,U.S. Representative,democrats,NNPS,continue,continue,VBP,H,F
+293360-1,House Proceeding,"Washington, District of Columbia, United States",Thu May  6 00:00:00 2010,"Louis ""Louie"" B. Jr. Gohmert",R,Texas,U.S. Representative,republicans,NNS,blamed,blame,VBN,P,NF
+293485-1,House Proceeding,"Washington, District of Columbia, United States",Thu May 13 00:00:00 2010,Keith Ellison,D,Minnesota,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+292240-1,House Proceeding,"Washington, District of Columbia, United States",Wed Feb 24 00:00:00 2010,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNPS,accused,accuse,VBN,P,NF
+290082-1,House Proceeding,"Washington, District of Columbia, United States",Wed Nov 18 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+290082-1,House Proceeding,"Washington, District of Columbia, United States",Wed Nov 18 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+290082-1,House Proceeding,"Washington, District of Columbia, United States",Wed Nov 18 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+289793-101,House Proceeding,"Washington, District of Columbia, United States",Wed Nov  4 00:00:00 2009,Paul C. Jr. Broun,R,Georgia,U.S. Representative,democrats,NNPS,said,say,VBN,P,NF
+289793-101,House Proceeding,"Washington, District of Columbia, United States",Wed Nov  4 00:00:00 2009,Paul C. Jr. Broun,R,Georgia,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+306731-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jun 29 00:00:00 2012,Eleanor Holmes Norton,D,District of Columbia,Congressional Delegate,republicans,NNPS,believe,believe,VBP,P,NF
+288145-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jul 31 00:00:00 2009,"Steven ""Steve"" King",R,Iowa,U.S. Representative,democrats,NNPS,think,think,VBP,P,NF
+289083-1,House Proceeding,"Washington, District of Columbia, United States",Wed Sep 23 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+287907-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 22 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrat,NNP,said,say,VBD,P,NF
+289659-1,House Proceeding,"Washington, District of Columbia, United States",Tue Oct 27 00:00:00 2009,"Daniel ""Dan"" E. Lungren",R,California,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+287216-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jun 23 00:00:00 2009,Virginia Foxx,R,North Carolina,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+289678-1,House Proceeding,"Washington, District of Columbia, United States",Wed Oct 28 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+289678-1,House Proceeding,"Washington, District of Columbia, United States",Wed Oct 28 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+286939-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jun 10 00:00:00 2009,Howard L. Berman,D,California,U.S. Representative,democrats,NNPS,avoided,avoid,VBD,H,F
+284558-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 11 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,republicans,NNS,accused,accuse,VBN,P,NF
+285429-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 22 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,republicans,NNPS,understand,understand,VBP,H,F
+283980-1,House Proceeding,"Washington, District of Columbia, United States",Wed Feb 11 00:00:00 2009,"W. ""Todd"" Akin",R,Missouri,U.S. Representative,republicans,NNS,believe,believe,VBP,P,NF
+283204-101,House Proceeding,"Washington, District of Columbia, United States",Thu Jan  8 00:00:00 2009,Lynn A. Westmoreland,R,Georgia,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+283204-101,House Proceeding,"Washington, District of Columbia, United States",Thu Jan  8 00:00:00 2009,Lynn A. Westmoreland,R,Georgia,U.S. Representative,democrat,NNP,said,say,VBD,P,NF
+283384-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jan 15 00:00:00 2009,Barney Frank,D,Massachusetts,U.S. Representative,republican,NNP,said,say,VBD,P,NF
+283539-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jan 22 00:00:00 2009,Barney Frank,D,Massachusetts,U.S. Representative,republicans,NNPS,knew,know,VBD,H,F
+280990-1,House Proceeding,"Washington, District of Columbia, United States",Tue Sep  9 00:00:00 2008,Sheila Jackson Lee,D,Texas,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+281351-1,House Proceeding,"Washington, District of Columbia, United States",Thu Sep 25 00:00:00 2008,"Peter ""Pete"" Sessions",R,Texas,U.S. Representative,democrats,NNS,forced,force,VBN,H,F
+204383-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 12 00:00:00 2008,Paul Ryan,R,Wisconsin,U.S. Representative,democrats,NNPS,say,say,VBP,P,NF
+204383-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 12 00:00:00 2008,Paul Ryan,R,Wisconsin,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+204383-1,House Proceeding,"Washington, District of Columbia, United States",Wed Mar 12 00:00:00 2008,Paul Ryan,R,Wisconsin,U.S. Representative,democrats,NNPS,criticized,criticize,VBD,P,NF
+205105-1,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 30 00:00:00 2008,John M. Shimkus,R,Illinois,U.S. Representative,democrats,NNPS,promised,promise,VBD,P,NF
+305201-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 29 00:00:00 2012,Keith Ellison,D,Minnesota,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+305201-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 29 00:00:00 2012,Keith Ellison,D,Minnesota,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+305201-1,House Proceeding,"Washington, District of Columbia, United States",Thu Mar 29 00:00:00 2012,Keith Ellison,D,Minnesota,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+202182-1,House Proceeding,"Washington, District of Columbia, United States",Thu Nov  8 00:00:00 2007,Phil English,R,Pennsylvania,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+199938-2,House Proceeding,"Washington, District of Columbia, United States",Tue Jul 17 00:00:00 2007,David R. Obey,D,Wisconsin,U.S. Representative,republicans,NNS,know,know,VBP,H,F
+197912-1,House Proceeding,"Washington, District of Columbia, United States",Thu May  3 00:00:00 2007,Mike Pence,R,Indiana,U.S. Representative,republicans,NNPS,believed,believe,VBD,P,NF
+197444-1,House Proceeding,"Washington, District of Columbia, United States",Mon Apr 16 00:00:00 2007,Virginia Foxx,R,North Carolina,U.S. Representative,republicans,NNS,believe,believe,VBP,P,NF
+197444-1,House Proceeding,"Washington, District of Columbia, United States",Mon Apr 16 00:00:00 2007,Virginia Foxx,R,North Carolina,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+197444-1,House Proceeding,"Washington, District of Columbia, United States",Mon Apr 16 00:00:00 2007,Virginia Foxx,R,North Carolina,U.S. Representative,republicans,NNPS,think,think,VBP,P,NF
+197444-1,House Proceeding,"Washington, District of Columbia, United States",Mon Apr 16 00:00:00 2007,Virginia Foxx,R,North Carolina,U.S. Representative,democrats,NNS,say,say,VBP,P,NF
+196060-1,House Proceeding,"Washington, District of Columbia, United States",Thu Jan 11 00:00:00 2007,"Steven ""Steve"" King",R,Iowa,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+196061-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jan 12 00:00:00 2007,Kendrick Meek,D,Florida,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+196224-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jan 17 00:00:00 2007,"Howard ""Buck"" McKeon",R,California,U.S. Representative,democrats,NNS,know,know,VBP,H,F
+196460-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 30 00:00:00 2007,"Louis ""Louie"" B. Jr. Gohmert",R,Texas,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+196303-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan 23 00:00:00 2007,Marsha Blackburn,R,Tennessee,U.S. Representative,republicans,NNPS,believe,believe,VBP,P,NF
+196664-1,House Proceeding,"Washington, District of Columbia, United States",Thu Feb 15 00:00:00 2007,"Steve ""Stephen"" Buyer",R,Indiana,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+196664-1,House Proceeding,"Washington, District of Columbia, United States",Thu Feb 15 00:00:00 2007,"Steve ""Stephen"" Buyer",R,Indiana,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+196664-1,House Proceeding,"Washington, District of Columbia, United States",Thu Feb 15 00:00:00 2007,"Steve ""Stephen"" Buyer",R,Indiana,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+196664-1,House Proceeding,"Washington, District of Columbia, United States",Thu Feb 15 00:00:00 2007,"Steve ""Stephen"" Buyer",R,Indiana,U.S. Representative,democrats,NNPS,said,say,VBD,P,NF
+192821-1,House Proceeding,"Washington, District of Columbia, United States",Fri Jun  9 00:00:00 2006,James Kolbe,R,Arizona,U.S. Representative,democrats,NNPS,manage,manage,VBP,H,F
+190421-1,House Proceeding,"Washington, District of Columbia, United States",Thu Dec 22 00:00:00 2005,David R. Obey,D,Wisconsin,U.S. Representative,democrats,NNPS,continued,continue,VBD,H,F
+189809-1,House Proceeding,"Washington, District of Columbia, United States",Tue Nov  8 00:00:00 2005,Peter A. DeFazio,D,Oregon,U.S. Representative,republicans,NNPS,hope,hope,VBP,P,NF
+189745-1,House Proceeding,"Washington, District of Columbia, United States",Fri Nov  4 00:00:00 2005,Kendrick Meek,D,Florida,U.S. Representative,republicans,NNPS,asked,ask,VBN,P,NF
+186222-2,House Proceeding,"Washington, District of Columbia, United States",Wed Apr 13 00:00:00 2005,Steny H. Hoyer,D,Maryland,U.S. Representative,republicans,NNPS,said,say,VBD,P,NF
+184939-1,House Proceeding,"Washington, District of Columbia, United States",Tue Jan  4 00:00:00 2005,Nancy Pelosi,D,California,U.S. Representative,republicans,NNS,say,say,VBP,P,NF
+303202-2,House Proceeding,"Washington, District of Columbia, United States",Thu Dec 15 00:00:00 2011,Donna M. Christensen,D,Virgin Islands,Congressional Delegate,republicans,NNS,say,say,VBP,P,NF
+182796-1,House Proceeding,"Washington, District of Columbia, United States",Wed Jul 21 00:00:00 2004,Steny H. Hoyer,D,Maryland,U.S. Representative,democrats,NNPS,believe,believe,VBP,P,NF
+303193-1,House Proceeding,"Washington, District of Columbia, United States",Wed Dec 14 00:00:00 2011,Donna F. Edwards,D,Maryland,U.S. Representative,republicans,NNPS,thought,think,VBD,P,NF
+183403-1,House Proceeding,"Washington, District of Columbia, United States",Wed Sep  8 00:00:00 2004,David R. Obey,D,Wisconsin,U.S. Representative,republicans,NNPS,promised,promise,VBD,P,NF

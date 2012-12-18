@@ -2,9 +2,9 @@ import json
 from glob import glob
 from pymongo import Connection
 
-COLLECTION = Connection(host='localhost', port=27017).cspan
+DB = Connection(host='localhost', port=27017).cspan
 
-DIR = '/Users/ajdjalali/Desktop/cspan/tagged_transcripts/*.json'
+DIR = '/Users/ajdjalali/Desktop/hpc/cspan_spider/tagged_transcripts/*.json'
 
 ########################################################################
 
@@ -12,4 +12,4 @@ for filename in glob(DIR):
     with open(filename) as fp:
         doc = json.load(fp)
 
-    COLLECTION.house_hearings.save(doc)
+    DB.house_proceedings.save(doc)

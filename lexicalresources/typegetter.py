@@ -37,4 +37,7 @@ class TypeGetter():
     @property
     def tags(self):
         # Fix. Only handles the verb experiment.
-        return self.__standardize_tagdb[self.type]
+        try:
+            return self.__standardize_tagdb[self.type]
+        except:
+            pass

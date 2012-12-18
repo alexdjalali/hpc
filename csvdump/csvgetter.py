@@ -1,5 +1,6 @@
 import csv
 import re
+import json
 
 class CSVWriter():
 
@@ -40,8 +41,8 @@ class CSVWriter():
                     'verb_token',
                     'verb_type',
                     'verb_cat',
-                    'factivity',
                     'presuppositional_behavior',
+                    'factivity',
                 )
 
         return self.FIELDS + fields
@@ -60,8 +61,9 @@ class CSVWriter():
         return d
 
     def get_row(self, transcript, speech):
-        for person in transcript.people:
-            if speech.speaker_first_name in person.first_name and speech.speaker_last_name in person.last_name:
+        speakers = json.load(open('/Users/ajdjalali/Desktop/hpc/json/speakers.json'))
+        for key in [speaker.strip() for speaker in speakers.keys()]:
+            if speech.speaker_full_name in key:
 
                 # Transcript data
                 row = (
@@ -72,10 +74,10 @@ class CSVWriter():
             )
                 # Speaker data
                 row = row + (
-                                person.full_name,
-                                person.party,
-                                person.state,
-                                person.office,
+                                key['name']['first'] + ' ' + key['name']['last'],
+                                key['party'],
+                                key['state'],
+                                key['office'],
                     )
                 return row
             else:

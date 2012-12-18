@@ -51,7 +51,7 @@ class CSPAN(CrawlSpider):
 
         transcript_id = "".join(hxs.select('//p[@class="eventlink meta"]/a/@href').extract())
         details = hxs.select('//div[@id="info"]')[0]
-        people = hxs.select('//div[@class="details"]')
+        #people = hxs.select('//div[@class="details"]')
 
         item['program_id'] = " ".join(details.select('div/dl/dd[1]/text()').extract()).strip()
         item['category'] = " ".join(details.select('div/dl/dd[2]/a/text()').extract()).strip()
@@ -59,19 +59,19 @@ class CSPAN(CrawlSpider):
         item['location'] = " ".join(details.select('div/dl/dd[4]/text()').extract()).strip()
         item['date_aired'] = " ".join(details.select('div/dl/dd[5]/text()').extract()).strip()
         item['airing_details'] = " ".join(hxs.select('//div[@id="airingDetails"]/dl/dd/strong/text()').extract()).strip()
-        item['people'] = []
+        #item['people'] = []
 
-        for person in people:
-            name = " ".join(person.select('h3/a/text()').extract()).strip().split(',')
-            item['people'].append({
-                                    'name': {
-                                             'first': name[1],
-                                             'last': name[0],
-                                    },
-                                    'office': " ".join(person.select('span/i/text()').extract()).strip(),
-                                    'party': party_getter(" ".join(person.select('text()').extract()).strip()),
-                                    'state': state_getter(" ".join(person.select('text()').extract()).strip()),
-            })
+        #for person in people:
+            #name = " ".join(person.select('h3/a/text()').extract()).strip().split(',')
+            #item['people'].append({
+                                    #'name': {
+                                             #'first': name[1],
+                                             #'last': name[0],
+                                    #},
+                                    #'office': " ".join(person.select('span/i/text()').extract()).strip(),
+                                    #'party': party_getter(" ".join(person.select('text()').extract()).strip()),
+                                    #'state': state_getter(" ".join(person.select('text()').extract()).strip()),
+            #})
 
         item['tags'] = hxs.select('//div[@id="tags"]/div/ul/li/a/text()').extract()
         item['run_time'] = " ".join(hxs.select('//p[@class="meta bordered"]/span/a/text()').extract()).strip()
@@ -101,13 +101,30 @@ class CSPAN(CrawlSpider):
         item['transcript'] = []
 
         for turn in turns:
-            speaker = " ".join(turn.select('h2/text()').extract()).split(',')[0].split(' ')
+            speaker_info = " ".join(turn.select('h2/text()').extract()).split(',')
+            speaker = speaker_info[0].split(" ")
+            party_info = speaker_info[1].split(" ")
+            try:
+                party = party_info[1].split("-")[0]
+            except:
+                party = ''
+            try:
+                state = party_info[1].split("-")[1]
+            except:
+                state = ''
+            try:
+                district = party_info[2] + " " + party_info[3]
+            except:
+                district = ''
             item['transcript'].append({
                                         'speaker': {
                                                     'name': {
                                                             'first': speaker[0],
                                                             'last': speaker[1],
                                                     },
+                                                'party': party,
+                                                'state': state,
+                                                'district': district,
                                         },
                                         'time': {
                                                     'transcript_time': transcript_time_getter(" ".join(turn.select('h3/text()').extract())),
