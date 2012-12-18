@@ -1,5 +1,4 @@
 import re
-from person import Person
 from speech import Speech
 from urlparse import urlparse
 from datetime import datetime, timedelta
@@ -24,8 +23,6 @@ class Transcript:
         self.date_aired = datetime.strptime(self.document['date_aired'], '%b %d, %Y')
         # Get and parse airing details
         self.airing_details = datetime.strptime(re.sub(r' \(C[12]\)', '', self.document['airing_details']), '%b %d, %Y %H:%M')
-        # Get list of speakers
-        self.people = [Person(person) for person in self.document['people']]
         # Get list of video tags
         self.tags = self.document['tags']
         # Get run-time converted to seconds

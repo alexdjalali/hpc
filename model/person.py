@@ -72,14 +72,15 @@ class Person:
         self.last_name = self.person['name']['last'].strip()
         self.full_name = self.first_name + " " + self.last_name
         # Get political office
-        self.office = self.person['office']
+        self.office = 'U.S. Congress'
         # Validate political party
         self.party = self.__validator(self.person['party'])
         # Validate state of representation
         self.state = self.__validator(self.person['state'])
+        self.district = self.person['district']
 
     def __validator(self, validation):
         if validation in STATES or validation in PARTIES:
             return validation
         else:
-            return None
+            return ''

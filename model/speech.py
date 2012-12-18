@@ -1,14 +1,12 @@
 import time
+from person import Person
 from datetime import datetime, timedelta
 
 class Speech:
 
     def __init__(self, speech, **kwargs):
         self.speech = speech
-        # Get speaker name
-        self.speaker_first_name = self.speech['speaker']['name']['first'].strip()
-        self.speaker_last_name = self.speech['speaker']['name']['last'].strip()
-        self.speaker_full_name = self.speaker_first_name + " " + self.speaker_last_name
+        self.speaker = Person(self.speech['speaker'])
         # Get and parse actual time of speech
         try:
             self.actual_time = datetime.strptime(self.speech['time']['actual_time'], "%I:%M:%S %p")
