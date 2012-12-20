@@ -1,8 +1,3 @@
-REPUBLICAN = 'R'
-DEMOCRAT = 'D'
-INDEPENDENT = 'I'
-PARTIES = [REPUBLICAN, DEMOCRAT, INDEPENDENT]
-
 STATES = [
             "Alaska",
             "American Samoa",
@@ -65,22 +60,13 @@ STATES = [
 
 class Person:
 
-    def __init__(self, person, **kwargs):
+    def __init__(self, person):
         self.person = person
-        # Get cleaned name
-        self.first_name = self.person['name']['first'].strip()
-        self.last_name = self.person['name']['last'].strip()
-        self.full_name = self.first_name + " " + self.last_name
-        # Get political office
+        self.name = self.person['name']
         self.office = 'U.S. Congress'
-        # Validate political party
-        self.party = self.__validator(self.person['party'])
-        # Validate state of representation
-        self.state = self.__validator(self.person['state'])
+        self.party = self.person['party']
+        self.state = self.person['state']
         self.district = self.person['district']
 
-    def __validator(self, validation):
-        if validation in STATES or validation in PARTIES:
-            return validation
-        else:
-            return ''
+    def __str__(self):
+        return self.name.encode('utf-8') + " " + self.party.encode('utf-8') + " " + self.state.encode('utf-8')

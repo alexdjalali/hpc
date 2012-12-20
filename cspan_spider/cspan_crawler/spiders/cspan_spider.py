@@ -1,23 +1,17 @@
+import re
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 from cspan_crawler.items import CSPANItem
 
-
-def party_getter(list1):
-    party = list1.split(']')
-    if len(party) > 1:
-        return party[0].strip('[')
-    else:
-        return None
-
-def state_getter(list1):
-    state = list1.split(']')
-    if len(state) > 1:
-        return state[1].strip()
-    else:
-        return None
+def speaker_info(list1):
+    regex = r'(.+), ([A-Z]{1})-([A-Za-z]+(?:\s[A-Za-z]+)*)? (.*)'
+    speaker_info = re.match(regex, " ".join(list1))
+    try:
+        return speaker_info.groups()
+    except:
+        return ('', '', '', '')
 
 def actual_time_getter(list1):
     actual_time = list1.split('(')
@@ -48,10 +42,8 @@ class CSPAN(CrawlSpider):
     def parse1(self, response):
         item = CSPANItem()
         hxs = HtmlXPathSelector(response)
-
         transcript_id = "".join(hxs.select('//p[@class="eventlink meta"]/a/@href').extract())
         details = hxs.select('//div[@id="info"]')[0]
-        #people = hxs.select('//div[@class="details"]')
 
         item['program_id'] = " ".join(details.select('div/dl/dd[1]/text()').extract()).strip()
         item['category'] = " ".join(details.select('div/dl/dd[2]/a/text()').extract()).strip()
@@ -59,20 +51,6 @@ class CSPAN(CrawlSpider):
         item['location'] = " ".join(details.select('div/dl/dd[4]/text()').extract()).strip()
         item['date_aired'] = " ".join(details.select('div/dl/dd[5]/text()').extract()).strip()
         item['airing_details'] = " ".join(hxs.select('//div[@id="airingDetails"]/dl/dd/strong/text()').extract()).strip()
-        #item['people'] = []
-
-        #for person in people:
-            #name = " ".join(person.select('h3/a/text()').extract()).strip().split(',')
-            #item['people'].append({
-                                    #'name': {
-                                             #'first': name[1],
-                                             #'last': name[0],
-                                    #},
-                                    #'office': " ".join(person.select('span/i/text()').extract()).strip(),
-                                    #'party': party_getter(" ".join(person.select('text()').extract()).strip()),
-                                    #'state': state_getter(" ".join(person.select('text()').extract()).strip()),
-            #})
-
         item['tags'] = hxs.select('//div[@id="tags"]/div/ul/li/a/text()').extract()
         item['run_time'] = " ".join(hxs.select('//p[@class="meta bordered"]/span/a/text()').extract()).strip()
         item['source'] = unicode('c-spanvideo.org')
@@ -101,30 +79,13 @@ class CSPAN(CrawlSpider):
         item['transcript'] = []
 
         for turn in turns:
-            speaker_info = " ".join(turn.select('h2/text()').extract()).split(',')
-            speaker = speaker_info[0].split(" ")
-            party_info = speaker_info[1].split(" ")
-            try:
-                party = party_info[1].split("-")[0]
-            except:
-                party = ''
-            try:
-                state = party_info[1].split("-")[1]
-            except:
-                state = ''
-            try:
-                district = party_info[2] + " " + party_info[3]
-            except:
-                district = ''
+            speaker = speaker_info(turn.select('h2/text()').extract())
             item['transcript'].append({
                                         'speaker': {
-                                                    'name': {
-                                                            'first': speaker[0],
-                                                            'last': speaker[1],
-                                                    },
-                                                'party': party,
-                                                'state': state,
-                                                'district': district,
+                                                    'name': speaker[0],
+                                                    'party': speaker[1],
+                                                    'state': speaker[2],
+                                                    'district': speaker[3],
                                         },
                                         'time': {
                                                     'transcript_time': transcript_time_getter(" ".join(turn.select('h3/text()').extract())),

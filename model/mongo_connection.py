@@ -5,7 +5,7 @@ from pymongo.collection import Collection
 HOST = 'localhost'
 PORT = 27017
 DB = 'cspan'
-COLLECTION = 'house_hearings'
+COLLECTION = 'house_proceedings'
 
 ############################################################################
 

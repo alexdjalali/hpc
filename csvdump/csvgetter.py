@@ -1,6 +1,5 @@
 import csv
 import re
-import json
 
 class CSVWriter():
 
@@ -10,9 +9,10 @@ class CSVWriter():
                 'location',
                 'date_aired',
                 'speaker_name',
+                'speaker_office',
                 'speaker_party',
                 'speaker_state',
-                'speaker_office',
+                'speaker_district',
             )
 
     def __init__(self):
@@ -30,6 +30,7 @@ class CSVWriter():
                     'head_noun',
                     'noun_cat',
                 )
+
         return self.FIELD + fields
 
     @property
@@ -61,24 +62,20 @@ class CSVWriter():
         return d
 
     def get_row(self, transcript, speech):
-        speakers = json.load(open('/Users/ajdjalali/Desktop/hpc/json/speakers.json'))
-        for key in [speaker.strip() for speaker in speakers.keys()]:
-            if speech.speaker_full_name in key:
-
-                # Transcript data
-                row = (
-                        transcript.program_id,
-                        transcript.category,
-                        transcript.location,
-                        unicode(transcript.date_aired.ctime()),
+        # Transcript data
+        row = (
+                transcript.program_id,
+                transcript.category,
+                transcript.location,
+                transcript.date_aired,
             )
-                # Speaker data
-                row = row + (
-                                key['name']['first'] + ' ' + key['name']['last'],
-                                key['party'],
-                                key['state'],
-                                key['office'],
-                    )
-                return row
-            else:
-                return False
+
+        # Speaker data
+        row = row + (
+                        speech.speaker.name,
+                        speech.speaker.office,
+                        speech.speaker.party,
+                        speech.speaker.state,
+                        speech.speaker.district,
+            )
+        return row
