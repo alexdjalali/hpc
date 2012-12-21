@@ -31,7 +31,7 @@ class CSVWriter():
                     'noun_cat',
                 )
 
-        return self.FIELD + fields
+        return self.FIELDS + fields
 
     @property
     def verb_fields(self):
